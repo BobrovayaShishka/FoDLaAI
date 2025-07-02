@@ -12,6 +12,7 @@ from sklearn.model_selection import train_test_split
 # Настройка логирования
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
+# 1.1 Расширение линейной регрессии
 class LinearRegressionWithRegularization(nn.Module):
     """Линейная регрессия с поддержкой L1 и L2 регуляризации"""
     def __init__(self, in_features, l1_lambda=0.01, l2_lambda=0.01):
@@ -94,7 +95,8 @@ def train_linear_regression(
     plt.close()
     
     return model
-
+    
+# 1.2 Расширение логистической регрессии
 class MulticlassLogisticRegression(nn.Module):
     """Логистическая регрессия для многоклассовой классификации"""
     def __init__(self, in_features, num_classes):
