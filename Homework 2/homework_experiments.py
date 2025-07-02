@@ -1,4 +1,3 @@
-# homework_experiments.py
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -226,5 +225,226 @@ if __name__ == "__main__":
 
     logging.info("Начало экспериментов с feature engineering")
     feature_results = feature_engineering_experiment()
+    print("Результаты экспериментов с feature engineering:")
+    print(feature_results)
+
+class MulticlassLogisticRegression(nn.Module):
+    """Логистическая регрессия с L1/L2 регуляризацией для многоклассовой классификации"""
+    def __init__(self, in_features, num_classes, l1_lambda=0.01, l2_lambda=0.01):
+        super().__init__()
+        self.linear = nn.Linear(in_features, num_classes)
+        self.l1_lambda = l1_lambda
+        self.l2_lambda = l2_lambda
+
+    def forward(self, x):
+        return self.linear(x)
+
+    def regularization_loss(self):
+        l1_loss = sum(p.abs().sum() for p in self.parameters())
+        l2_loss = sum(p.pow(2).sum() for p in self.parameters())
+        return self.l1_lambda * l1_loss + self.l2_lambda * l2_loss
+
+def train_logistic_regression(
+    model,
+    X_train, y_train,
+    X_val, y_val,
+    epochs=100,
+    batch_size=32,
+    lr=0.01,
+    patience=5,
+    optimizer_type='SGD'
+):
+    """Обучение модели с ранней остановкой и разными оптимизаторами"""
+    train_dataset = TensorDataset(X_train, y_train.long())
+    train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
+
+    criterion = nn.CrossEntropyLoss()
+    
+    # Выбор оптимизатора
+    if optimizer_type == 'SGD':
+        optimizer = optim.SGD(model.parameters(), lr=lr)
+    elif optimizer_type == 'Adam':
+        optimizer = optim.Adam(model.parameters(), lr=lr)
+    elif optimizer_type == 'RMSprop':
+        optimizer = optim.RMSprop(model.parameters(), lr=lr)
+    else:
+        raise ValueError(f"Неизвестный оптимизатор: {optimizer_type}")
+
+    best_val_loss = float('inf')
+    patience_counter = 0
+    train_losses, val_losses = [], []
+    metrics = {
+        'precision': [], 'recall': [], 'f1': [], 'auc': []
+    }
+
+    for epoch in range(epochs):
+        model.train()
+        epoch_loss = 0
+        for X_batch, y_batch in train_loader:
+            optimizer.zero_grad()
+            logits = model(X_batch)
+            loss = criterion(logits, y_batch.squeeze()) + model.regularization_loss()
+            loss.backward()
+            optimizer.step()
+            epoch_loss += loss.item()
+
+        model.eval()
+        with torch.no_grad():
+            val_logits = model(X_val)
+            val_loss = criterion(val_logits, y_val.squeeze()).item()
+            probs = torch.softmax(val_logits, dim=1)
+            preds = torch.argmax(probs, dim=1)
+
+            # Вычисление метрик
+            precision = precision_score(y_val, preds, average='macro', zero_division=0)
+            recall = recall_score(y_val, preds, average='macro')
+            f1 = f1_score(y_val, preds, average='macro')
+            try:
+                auc = roc_auc_score(y_val, probs.cpu().numpy(), multi_class='ovr', average='macro')
+            except:
+                auc = 0.5
+
+            metrics['precision'].append(precision)
+            metrics['recall'].append(recall)
+            metrics['f1'].append(f1)
+            metrics['auc'].append(auc)
+
+        train_losses.append(epoch_loss / len(train_loader))
+        val_losses.append(val_loss)
+        logging.info(
+            f"Epoch {epoch+1}/{epochs} | "
+            f"Train Loss: {train_losses[-1]:.4f} | Val Loss: {val_loss:.4f} | "
+            f"F1: {f1:.4f}"
+        )
+
+        # Ранняя остановка
+        if val_loss < best_val_loss:
+            best_val_loss = val_loss
+            patience_counter = 0
+        else:
+            patience_counter += 1
+            if patience_counter >= patience:
+                logging.info(f"Ранняя остановка на эпохе № {epoch+1}")
+                break
+
+    # Сохранение графиков
+    plt.figure(figsize=(10, 6))
+    plt.plot(train_losses, label='Train Loss')
+    plt.plot(val_losses, label='Validation Loss')
+    plt.title('Training and Validation Loss')
+    plt.legend()
+    plt.savefig('logistic_regression_loss.png')
+    plt.close()
+
+    plt.figure(figsize=(12, 8))
+    for i, (metric, values) in enumerate(metrics.items()):
+        plt.subplot(2, 2, i+1)
+        plt.plot(values)
+        plt.title(metric.capitalize())
+    plt.tight_layout()
+    plt.savefig('logistic_classification_metrics.png')
+    plt.close()
+
+    return model, best_val_loss
+
+def hyperparameter_experiment_logistic():
+    """Эксперименты с гиперпараметрами для логистической регрессии"""
+    X, y = make_classification(n_samples=1000, n_features=10, n_classes=3, n_informative=4)
+    X = torch.tensor(X, dtype=torch.float32)
+    y = torch.tensor(y, dtype=torch.long).unsqueeze(1)
+    X_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2)
+
+    learning_rates = [0.001, 0.01, 0.1]
+    batch_sizes = [16, 32, 64]
+    optimizers = ['SGD', 'Adam', 'RMSprop']
+    results = []
+
+    for lr in learning_rates:
+        for bs in batch_sizes:
+            for opt in optimizers:
+                logging.info(f"Эксперимент: LR={lr}, Batch={bs}, Optimizer={opt}")
+                model = MulticlassLogisticRegression(10, num_classes=3)
+                model, val_loss = train_logistic_regression(
+                    model, X_train, y_train, X_val, y_val,
+                    epochs=100, batch_size=bs, lr=lr, optimizer_type=opt
+                )
+                results.append({
+                    'learning_rate': lr,
+                    'batch_size': bs,
+                    'optimizer': opt,
+                    'best_val_loss': val_loss
+                })
+
+    results_df = pd.DataFrame(results)
+    results_df.to_csv('logistic_hyperparameter_results.csv', index=False)
+    return results_df
+
+def feature_engineering_experiment_logistic():
+    """Эксперименты с добавлением новых признаков для классификации"""
+    X, y = make_classification(n_samples=1000, n_features=10, n_classes=3, n_informative=4)
+    X_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2)
+
+    # Полиномиальные признаки
+    poly = PolynomialFeatures(degree=2, include_bias=False)
+    X_train_poly = poly.fit_transform(X_train)
+    X_val_poly = poly.transform(X_val)
+
+    # Статистические признаки
+    X_train_stats = np.column_stack((X_train,
+                                    np.mean(X_train, axis=1),
+                                    np.var(X_train, axis=1)))
+    X_val_stats = np.column_stack((X_val,
+                                   np.mean(X_val, axis=1),
+                                   np.var(X_val, axis=1)))
+
+    # Преобразование в тензоры
+    X_train_tensor = torch.tensor(X_train, dtype=torch.float32)
+    X_val_tensor = torch.tensor(X_val, dtype=torch.float32)
+    X_train_poly_tensor = torch.tensor(X_train_poly, dtype=torch.float32)
+    X_val_poly_tensor = torch.tensor(X_val_poly, dtype=torch.float32)
+    X_train_stats_tensor = torch.tensor(X_train_stats, dtype=torch.float32)
+    X_val_stats_tensor = torch.tensor(X_val_stats, dtype=torch.float32)
+
+    y_train_tensor = torch.tensor(y_train, dtype=torch.long).unsqueeze(1)
+    y_val_tensor = torch.tensor(y_val, dtype=torch.long).unsqueeze(1)
+
+    results = []
+
+    for name, X_train_feat, X_val_feat in [
+        ('Base', X_train_tensor, X_val_tensor),
+        ('Polynomial', X_train_poly_tensor, X_val_poly_tensor),
+        ('With Stats', X_train_stats_tensor, X_val_stats_tensor)
+    ]:
+        logging.info(f"Обучение модели с признаками: {name}")
+        model = MulticlassLogisticRegression(X_train_feat.shape[1], num_classes=3)
+        model, val_loss = train_logistic_regression(
+            model, X_train_feat, y_train_tensor, X_val_feat, y_val_tensor,
+            epochs=100, batch_size=32, lr=0.01
+        )
+        results.append({
+            'feature_type': name,
+            'best_val_loss': val_loss
+        })
+
+    results_df = pd.DataFrame(results)
+    results_df.to_csv('logistic_feature_engineering_results.csv', index=False)
+
+    plt.figure(figsize=(10, 6))
+    sns.barplot(x='feature_type', y='best_val_loss', data=results_df)
+    plt.title('Сравнение методов feature engineering')
+    plt.ylabel('Best Validation Loss')
+    plt.savefig('logistic_feature_comparison.png')
+    plt.close()
+
+    return results_df
+
+if __name__ == "__main__":
+    logging.info("Начало экспериментов с гиперпараметрами (логистическая регрессия)")
+    hyperparameter_results = hyperparameter_experiment_logistic()
+    print("Результаты экспериментов с гиперпараметрами:")
+    print(hyperparameter_results)
+
+    logging.info("Начало экспериментов с feature engineering (логистическая регрессия)")
+    feature_results = feature_engineering_experiment_logistic()
     print("Результаты экспериментов с feature engineering:")
     print(feature_results)
