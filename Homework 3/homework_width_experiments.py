@@ -29,8 +29,6 @@ EPOCHS = 20          # Количество эпох для основных э�
 LR = 0.001           # Скорость обучения
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")  # Устройство для вычислений
 
-# ==================== ВСПОМОГАТЕЛЬНЫЕ ФУНКЦИИ ====================
-
 def setup_logger(dataset_name):
     """
     Настройка логгера для записи хода экспериментов.
@@ -145,8 +143,6 @@ def run_epoch(model, data_loader, criterion, optimizer=None, is_test=False):
     accuracy = correct / total
     
     return avg_loss, accuracy
-
-# ==================== ОСНОВНЫЕ ФУНКЦИИ ЭКСПЕРИМЕНТОВ ====================
 
 def width_experiment(dataset_name, width_configs, config_names, test_mode=False):
     """
@@ -383,8 +379,6 @@ def analyze_results(results, dataset_name, logger):
         logger.info(f"{name}: Точность (test): {r['history']['test_acc'][-1]:.4f}, "
                    f"Время: {sum(r['history']['epoch_time']):.1f} сек, "
                    f"Параметры: {r['params']:,}")
-
-# ==================== ТОЧКА ВХОДА ====================
 
 def main():
     """Основная функция для запуска экспериментов."""
