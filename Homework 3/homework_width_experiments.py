@@ -13,8 +13,6 @@ from utils.dataset_utils import get_mnist_loaders, get_cifar_loaders
 from utils.model_utils import generate_width_config, create_model, count_parameters
 from utils.visualization_utils import plot_training_history, plot_comparison_bar, plot_heatmap
 
-# ==================== КОНФИГУРАЦИЯ ПУТЕЙ И ПАРАМЕТРОВ ====================
-
 # Пути для сохранения результатов
 RESULTS_DIR = "results/width_experiments"          # Основная папка с результатами
 GRID_SEARCH_DIR = os.path.join(RESULTS_DIR, "grid_search")  # Для результатов grid search
