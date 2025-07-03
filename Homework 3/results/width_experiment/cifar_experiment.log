@@ -1,0 +1,21 @@
+2025-07-03 22:18:19,457 - width_experiment_cifar - INFO - Starting width experiment for cifar
+2025-07-03 22:18:19,457 - width_experiment_cifar - INFO - Configurations: ['narrow', 'medium', 'wide', 'xwide']
+2025-07-03 22:18:19,457 - width_experiment_cifar - INFO - Test mode activated
+2025-07-03 22:18:21,148 - width_experiment_cifar - INFO - 
+=== Configuration: narrow ===
+2025-07-03 22:18:21,148 - width_experiment_cifar - INFO - Layer widths: [64, 32, 16]
+2025-07-03 22:18:21,345 - width_experiment_cifar - INFO - Model parameters: 199,450
+2025-07-03 22:18:34,884 - width_experiment_cifar - INFO - Epoch 1/2: Train Loss: 1.7057, Test Loss: 1.5563, Train Acc: 0.3930, Test Acc: 0.4428, Time: 13.54 sec
+2025-07-03 22:18:49,097 - width_experiment_cifar - INFO - Epoch 2/2: Train Loss: 1.5069, Test Loss: 1.4947, Train Acc: 0.4656, Test Acc: 0.4729, Time: 14.21 sec
+2025-07-03 22:18:49,398 - width_experiment_cifar - INFO - 
+=== Configuration: medium ===
+2025-07-03 22:18:49,398 - width_experiment_cifar - INFO - Layer widths: [256, 128, 64]
+2025-07-03 22:18:49,406 - width_experiment_cifar - INFO - Model parameters: 828,490
+2025-07-03 22:19:02,872 - width_experiment_cifar - INFO - Epoch 1/2: Train Loss: 1.6538, Test Loss: 1.5117, Train Acc: 0.4118, Test Acc: 0.4651, Time: 13.47 sec
+2025-07-03 22:19:16,417 - width_experiment_cifar - INFO - Epoch 2/2: Train Loss: 1.4419, Test Loss: 1.4617, Train Acc: 0.4906, Test Acc: 0.4866, Time: 13.54 sec
+2025-07-03 22:19:17,042 - width_experiment_cifar - INFO - 
+==================================================
+2025-07-03 22:19:17,042 - width_experiment_cifar - INFO - CIFAR - Results Summary:
+2025-07-03 22:19:17,042 - width_experiment_cifar - INFO - narrow: Test Acc: 0.4729, Time: 27.8 sec, Params: 199,450
+2025-07-03 22:19:17,042 - width_experiment_cifar - INFO - medium: Test Acc: 0.4866, Time: 27.0 sec, Params: 828,490
+2025-07-03 22:19:17,042 - width_experiment_cifar - INFO - Results saved to results/width_experiments/cifar_results.json
