@@ -1,0 +1,60 @@
+2025-07-03 22:24:09,704 - reg_experiment_mnist - INFO - Starting regularization experiment for mnist
+2025-07-03 22:24:09,704 - reg_experiment_mnist - INFO - Test mode activated
+2025-07-03 22:24:09,795 - reg_experiment_mnist - INFO - 
+=== Experiment: no_reg ===
+2025-07-03 22:24:10,000 - reg_experiment_mnist - INFO - Model parameters: 1,462,538
+2025-07-03 22:24:23,970 - reg_experiment_mnist - INFO - Epoch 1/2: Train Loss: 0.2140, Test Loss: 0.1044, Train Acc: 0.9350, Test Acc: 0.9699, Time: 13.58 sec
+2025-07-03 22:24:37,747 - reg_experiment_mnist - INFO - Epoch 2/2: Train Loss: 0.0856, Test Loss: 0.0900, Train Acc: 0.9738, Test Acc: 0.9723, Time: 13.46 sec
+2025-07-03 22:24:38,195 - reg_experiment_mnist - INFO - 
+=== Experiment: dropout_0.1 ===
+2025-07-03 22:24:38,208 - reg_experiment_mnist - INFO - Model parameters: 1,462,538
+2025-07-03 22:24:52,599 - reg_experiment_mnist - INFO - Epoch 1/2: Train Loss: 0.2236, Test Loss: 0.1209, Train Acc: 0.9306, Test Acc: 0.9622, Time: 13.87 sec
+2025-07-03 22:25:06,702 - reg_experiment_mnist - INFO - Epoch 2/2: Train Loss: 0.0990, Test Loss: 0.0889, Train Acc: 0.9696, Test Acc: 0.9721, Time: 13.79 sec
+2025-07-03 22:25:06,978 - reg_experiment_mnist - INFO - 
+=== Experiment: dropout_0.3 ===
+2025-07-03 22:25:06,990 - reg_experiment_mnist - INFO - Model parameters: 1,462,538
+2025-07-03 22:25:20,719 - reg_experiment_mnist - INFO - Epoch 1/2: Train Loss: 0.2599, Test Loss: 0.1101, Train Acc: 0.9193, Test Acc: 0.9658, Time: 13.41 sec
+2025-07-03 22:25:35,125 - reg_experiment_mnist - INFO - Epoch 2/2: Train Loss: 0.1284, Test Loss: 0.0823, Train Acc: 0.9611, Test Acc: 0.9743, Time: 14.10 sec
+2025-07-03 22:25:35,410 - reg_experiment_mnist - INFO - 
+=== Experiment: dropout_0.5 ===
+2025-07-03 22:25:35,423 - reg_experiment_mnist - INFO - Model parameters: 1,462,538
+2025-07-03 22:25:49,105 - reg_experiment_mnist - INFO - Epoch 1/2: Train Loss: 0.3375, Test Loss: 0.1226, Train Acc: 0.8946, Test Acc: 0.9628, Time: 13.36 sec
+2025-07-03 22:26:03,043 - reg_experiment_mnist - INFO - Epoch 2/2: Train Loss: 0.1820, Test Loss: 0.0947, Train Acc: 0.9469, Test Acc: 0.9723, Time: 13.42 sec
+2025-07-03 22:26:03,325 - reg_experiment_mnist - INFO - 
+=== Experiment: batchnorm ===
+2025-07-03 22:26:03,337 - reg_experiment_mnist - INFO - Model parameters: 1,466,122
+2025-07-03 22:26:17,308 - reg_experiment_mnist - INFO - Epoch 1/2: Train Loss: 0.1661, Test Loss: 0.0844, Train Acc: 0.9484, Test Acc: 0.9735, Time: 13.52 sec
+2025-07-03 22:26:31,974 - reg_experiment_mnist - INFO - Epoch 2/2: Train Loss: 0.0771, Test Loss: 0.0786, Train Acc: 0.9754, Test Acc: 0.9755, Time: 14.00 sec
+2025-07-03 22:26:32,257 - reg_experiment_mnist - INFO - 
+=== Experiment: both ===
+2025-07-03 22:26:32,271 - reg_experiment_mnist - INFO - Model parameters: 1,466,122
+2025-07-03 22:26:46,244 - reg_experiment_mnist - INFO - Epoch 1/2: Train Loss: 0.2162, Test Loss: 0.0963, Train Acc: 0.9324, Test Acc: 0.9678, Time: 13.52 sec
+2025-07-03 22:27:00,530 - reg_experiment_mnist - INFO - Epoch 2/2: Train Loss: 0.1104, Test Loss: 0.0799, Train Acc: 0.9661, Test Acc: 0.9758, Time: 13.62 sec
+2025-07-03 22:27:00,802 - reg_experiment_mnist - INFO - 
+=== Experiment: l2_1e-4 ===
+2025-07-03 22:27:00,813 - reg_experiment_mnist - INFO - Model parameters: 1,462,538
+2025-07-03 22:27:14,472 - reg_experiment_mnist - INFO - Epoch 1/2: Train Loss: 0.2142, Test Loss: 0.1274, Train Acc: 0.9339, Test Acc: 0.9616, Time: 13.35 sec
+2025-07-03 22:27:28,225 - reg_experiment_mnist - INFO - Epoch 2/2: Train Loss: 0.0898, Test Loss: 0.0801, Train Acc: 0.9719, Test Acc: 0.9757, Time: 13.43 sec
+2025-07-03 22:27:28,498 - reg_experiment_mnist - INFO - 
+=== Experiment: l2_1e-3 ===
+2025-07-03 22:27:28,510 - reg_experiment_mnist - INFO - Model parameters: 1,462,538
+2025-07-03 22:27:42,134 - reg_experiment_mnist - INFO - Epoch 1/2: Train Loss: 0.2199, Test Loss: 0.1153, Train Acc: 0.9336, Test Acc: 0.9639, Time: 13.30 sec
+2025-07-03 22:27:57,349 - reg_experiment_mnist - INFO - Epoch 2/2: Train Loss: 0.1088, Test Loss: 0.1116, Train Acc: 0.9667, Test Acc: 0.9667, Time: 14.87 sec
+2025-07-03 22:27:57,625 - reg_experiment_mnist - INFO - 
+=== Experiment: l2_1e-2 ===
+2025-07-03 22:27:57,637 - reg_experiment_mnist - INFO - Model parameters: 1,462,538
+2025-07-03 22:28:11,311 - reg_experiment_mnist - INFO - Epoch 1/2: Train Loss: 0.2873, Test Loss: 0.1922, Train Acc: 0.9140, Test Acc: 0.9433, Time: 13.34 sec
+2025-07-03 22:28:25,122 - reg_experiment_mnist - INFO - Epoch 2/2: Train Loss: 0.1895, Test Loss: 0.1575, Train Acc: 0.9455, Test Acc: 0.9541, Time: 13.51 sec
+2025-07-03 22:28:25,770 - reg_experiment_mnist - INFO - 
+==================================================
+2025-07-03 22:28:25,770 - reg_experiment_mnist - INFO - MNIST - Results Summary:
+2025-07-03 22:28:25,770 - reg_experiment_mnist - INFO - no_reg: Test Acc: 0.9723, Time: 27.0 sec, Params: 1,462,538
+2025-07-03 22:28:25,770 - reg_experiment_mnist - INFO - dropout_0.1: Test Acc: 0.9721, Time: 27.7 sec, Params: 1,462,538
+2025-07-03 22:28:25,770 - reg_experiment_mnist - INFO - dropout_0.3: Test Acc: 0.9743, Time: 27.5 sec, Params: 1,462,538
+2025-07-03 22:28:25,770 - reg_experiment_mnist - INFO - dropout_0.5: Test Acc: 0.9723, Time: 26.8 sec, Params: 1,462,538
+2025-07-03 22:28:25,770 - reg_experiment_mnist - INFO - batchnorm: Test Acc: 0.9755, Time: 27.5 sec, Params: 1,466,122
+2025-07-03 22:28:25,770 - reg_experiment_mnist - INFO - both: Test Acc: 0.9758, Time: 27.1 sec, Params: 1,466,122
+2025-07-03 22:28:25,770 - reg_experiment_mnist - INFO - l2_1e-4: Test Acc: 0.9757, Time: 26.8 sec, Params: 1,462,538
+2025-07-03 22:28:25,770 - reg_experiment_mnist - INFO - l2_1e-3: Test Acc: 0.9667, Time: 28.2 sec, Params: 1,462,538
+2025-07-03 22:28:25,770 - reg_experiment_mnist - INFO - l2_1e-2: Test Acc: 0.9541, Time: 26.9 sec, Params: 1,462,538
+2025-07-03 22:28:25,772 - reg_experiment_mnist - INFO - Results saved to results/regularization_experiments/mnist_results.json
