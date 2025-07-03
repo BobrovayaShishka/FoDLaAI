@@ -1,0 +1,420 @@
+2025-07-03 21:00:02,627 - depth_experiment_mnist - INFO - Starting depth experiment for mnist
+2025-07-03 21:00:02,628 - depth_experiment_mnist - INFO - Depths: [1, 2, 3, 5, 7], Dropout: False, BatchNorm: False
+2025-07-03 21:00:06,512 - depth_experiment_mnist - INFO - 
+=== Depth: 1 layers ===
+2025-07-03 21:00:06,750 - depth_experiment_mnist - INFO - Model parameters: 7,850
+2025-07-03 21:00:06,750 - depth_experiment_mnist - INFO - Epoch 1/20
+2025-07-03 21:04:33,409 - depth_experiment_mnist - INFO - Starting depth experiment for mnist
+2025-07-03 21:04:33,409 - depth_experiment_mnist - INFO - Depths: [1, 2, 3, 5, 7], Dropout: False, BatchNorm: False
+2025-07-03 21:04:33,500 - depth_experiment_mnist - INFO - 
+=== Depth: 1 layers ===
+2025-07-03 21:04:33,695 - depth_experiment_mnist - INFO - Model parameters: 7,850
+2025-07-03 21:04:33,695 - depth_experiment_mnist - INFO - Epoch 1/20
+2025-07-03 21:04:47,373 - depth_experiment_mnist - INFO - Epoch 1: Train Loss: 0.4503, Test Loss: 0.2996, Train Acc: 0.8727, Test Acc: 0.9138, Time: 13.68 sec
+2025-07-03 21:04:47,373 - depth_experiment_mnist - INFO - Epoch 2/20
+2025-07-03 21:05:00,772 - depth_experiment_mnist - INFO - Epoch 2: Train Loss: 0.3008, Test Loss: 0.2848, Train Acc: 0.9143, Test Acc: 0.9212, Time: 13.40 sec
+2025-07-03 21:05:00,772 - depth_experiment_mnist - INFO - Epoch 3/20
+2025-07-03 21:05:15,012 - depth_experiment_mnist - INFO - Epoch 3: Train Loss: 0.2849, Test Loss: 0.2736, Train Acc: 0.9193, Test Acc: 0.9215, Time: 14.24 sec
+2025-07-03 21:05:15,012 - depth_experiment_mnist - INFO - Epoch 4/20
+2025-07-03 21:05:28,675 - depth_experiment_mnist - INFO - Epoch 4: Train Loss: 0.2768, Test Loss: 0.2733, Train Acc: 0.9218, Test Acc: 0.9229, Time: 13.66 sec
+2025-07-03 21:05:28,675 - depth_experiment_mnist - INFO - Epoch 5/20
+2025-07-03 21:05:42,015 - depth_experiment_mnist - INFO - Epoch 5: Train Loss: 0.2709, Test Loss: 0.2732, Train Acc: 0.9240, Test Acc: 0.9218, Time: 13.34 sec
+2025-07-03 21:05:42,015 - depth_experiment_mnist - INFO - Epoch 6/20
+2025-07-03 21:05:55,122 - depth_experiment_mnist - INFO - Epoch 6: Train Loss: 0.2677, Test Loss: 0.2686, Train Acc: 0.9254, Test Acc: 0.9225, Time: 13.11 sec
+2025-07-03 21:05:55,122 - depth_experiment_mnist - INFO - Epoch 7/20
+2025-07-03 21:06:08,410 - depth_experiment_mnist - INFO - Epoch 7: Train Loss: 0.2646, Test Loss: 0.2670, Train Acc: 0.9258, Test Acc: 0.9240, Time: 13.29 sec
+2025-07-03 21:06:08,410 - depth_experiment_mnist - INFO - Epoch 8/20
+2025-07-03 21:06:21,579 - depth_experiment_mnist - INFO - Epoch 8: Train Loss: 0.2606, Test Loss: 0.2702, Train Acc: 0.9277, Test Acc: 0.9251, Time: 13.17 sec
+2025-07-03 21:06:21,579 - depth_experiment_mnist - INFO - Epoch 9/20
+2025-07-03 21:06:34,790 - depth_experiment_mnist - INFO - Epoch 9: Train Loss: 0.2604, Test Loss: 0.2733, Train Acc: 0.9268, Test Acc: 0.9228, Time: 13.21 sec
+2025-07-03 21:06:34,790 - depth_experiment_mnist - INFO - Epoch 10/20
+2025-07-03 21:06:48,100 - depth_experiment_mnist - INFO - Epoch 10: Train Loss: 0.2577, Test Loss: 0.2695, Train Acc: 0.9280, Test Acc: 0.9237, Time: 13.31 sec
+2025-07-03 21:06:48,100 - depth_experiment_mnist - INFO - Epoch 11/20
+2025-07-03 21:07:01,391 - depth_experiment_mnist - INFO - Epoch 11: Train Loss: 0.2555, Test Loss: 0.2735, Train Acc: 0.9287, Test Acc: 0.9224, Time: 13.29 sec
+2025-07-03 21:07:01,391 - depth_experiment_mnist - INFO - Epoch 12/20
+2025-07-03 21:07:14,586 - depth_experiment_mnist - INFO - Epoch 12: Train Loss: 0.2543, Test Loss: 0.2720, Train Acc: 0.9298, Test Acc: 0.9241, Time: 13.19 sec
+2025-07-03 21:07:14,586 - depth_experiment_mnist - INFO - Epoch 13/20
+2025-07-03 21:07:28,028 - depth_experiment_mnist - INFO - Epoch 13: Train Loss: 0.2531, Test Loss: 0.2772, Train Acc: 0.9291, Test Acc: 0.9215, Time: 13.44 sec
+2025-07-03 21:07:28,028 - depth_experiment_mnist - INFO - Epoch 14/20
+2025-07-03 21:07:41,702 - depth_experiment_mnist - INFO - Epoch 14: Train Loss: 0.2532, Test Loss: 0.2746, Train Acc: 0.9292, Test Acc: 0.9233, Time: 13.67 sec
+2025-07-03 21:07:41,702 - depth_experiment_mnist - INFO - Epoch 15/20
+2025-07-03 21:07:55,730 - depth_experiment_mnist - INFO - Epoch 15: Train Loss: 0.2522, Test Loss: 0.2663, Train Acc: 0.9296, Test Acc: 0.9256, Time: 14.03 sec
+2025-07-03 21:07:55,730 - depth_experiment_mnist - INFO - Epoch 16/20
+2025-07-03 21:08:08,939 - depth_experiment_mnist - INFO - Epoch 16: Train Loss: 0.2504, Test Loss: 0.2764, Train Acc: 0.9303, Test Acc: 0.9242, Time: 13.21 sec
+2025-07-03 21:08:08,939 - depth_experiment_mnist - INFO - Epoch 17/20
+2025-07-03 21:08:22,259 - depth_experiment_mnist - INFO - Epoch 17: Train Loss: 0.2504, Test Loss: 0.2670, Train Acc: 0.9299, Test Acc: 0.9254, Time: 13.32 sec
+2025-07-03 21:08:22,259 - depth_experiment_mnist - INFO - Epoch 18/20
+2025-07-03 21:08:35,800 - depth_experiment_mnist - INFO - Epoch 18: Train Loss: 0.2492, Test Loss: 0.2716, Train Acc: 0.9312, Test Acc: 0.9236, Time: 13.54 sec
+2025-07-03 21:08:35,800 - depth_experiment_mnist - INFO - Epoch 19/20
+2025-07-03 21:08:48,947 - depth_experiment_mnist - INFO - Epoch 19: Train Loss: 0.2486, Test Loss: 0.2721, Train Acc: 0.9315, Test Acc: 0.9241, Time: 13.15 sec
+2025-07-03 21:08:48,947 - depth_experiment_mnist - INFO - Epoch 20/20
+2025-07-03 21:09:02,177 - depth_experiment_mnist - INFO - Epoch 20: Train Loss: 0.2482, Test Loss: 0.2741, Train Acc: 0.9305, Test Acc: 0.9245, Time: 13.23 sec
+2025-07-03 21:09:02,540 - depth_experiment_mnist - INFO - 
+=== Depth: 2 layers ===
+2025-07-03 21:09:02,542 - depth_experiment_mnist - INFO - Model parameters: 203,530
+2025-07-03 21:09:02,543 - depth_experiment_mnist - INFO - Epoch 1/20
+2025-07-03 21:09:15,958 - depth_experiment_mnist - INFO - Epoch 1: Train Loss: 0.2683, Test Loss: 0.1344, Train Acc: 0.9220, Test Acc: 0.9588, Time: 13.42 sec
+2025-07-03 21:09:15,958 - depth_experiment_mnist - INFO - Epoch 2/20
+2025-07-03 21:09:29,539 - depth_experiment_mnist - INFO - Epoch 2: Train Loss: 0.1122, Test Loss: 0.1005, Train Acc: 0.9658, Test Acc: 0.9687, Time: 13.58 sec
+2025-07-03 21:09:29,540 - depth_experiment_mnist - INFO - Epoch 3/20
+2025-07-03 21:09:43,407 - depth_experiment_mnist - INFO - Epoch 3: Train Loss: 0.0756, Test Loss: 0.0791, Train Acc: 0.9765, Test Acc: 0.9774, Time: 13.87 sec
+2025-07-03 21:09:43,407 - depth_experiment_mnist - INFO - Epoch 4/20
+2025-07-03 21:09:56,934 - depth_experiment_mnist - INFO - Epoch 4: Train Loss: 0.0550, Test Loss: 0.0768, Train Acc: 0.9833, Test Acc: 0.9771, Time: 13.53 sec
+2025-07-03 21:09:56,934 - depth_experiment_mnist - INFO - Epoch 5/20
+2025-07-03 21:10:10,421 - depth_experiment_mnist - INFO - Epoch 5: Train Loss: 0.0415, Test Loss: 0.0683, Train Acc: 0.9866, Test Acc: 0.9777, Time: 13.49 sec
+2025-07-03 21:10:10,421 - depth_experiment_mnist - INFO - Epoch 6/20
+2025-07-03 21:10:24,577 - depth_experiment_mnist - INFO - Epoch 6: Train Loss: 0.0313, Test Loss: 0.0696, Train Acc: 0.9905, Test Acc: 0.9782, Time: 14.16 sec
+2025-07-03 21:10:24,577 - depth_experiment_mnist - INFO - Epoch 7/20
+2025-07-03 21:10:37,890 - depth_experiment_mnist - INFO - Epoch 7: Train Loss: 0.0247, Test Loss: 0.0787, Train Acc: 0.9923, Test Acc: 0.9764, Time: 13.31 sec
+2025-07-03 21:10:37,890 - depth_experiment_mnist - INFO - Epoch 8/20
+2025-07-03 21:10:51,226 - depth_experiment_mnist - INFO - Epoch 8: Train Loss: 0.0209, Test Loss: 0.0766, Train Acc: 0.9936, Test Acc: 0.9779, Time: 13.34 sec
+2025-07-03 21:10:51,226 - depth_experiment_mnist - INFO - Epoch 9/20
+2025-07-03 21:11:04,624 - depth_experiment_mnist - INFO - Epoch 9: Train Loss: 0.0176, Test Loss: 0.0852, Train Acc: 0.9946, Test Acc: 0.9760, Time: 13.40 sec
+2025-07-03 21:11:04,624 - depth_experiment_mnist - INFO - Epoch 10/20
+2025-07-03 21:11:17,765 - depth_experiment_mnist - INFO - Epoch 10: Train Loss: 0.0147, Test Loss: 0.0884, Train Acc: 0.9954, Test Acc: 0.9753, Time: 13.14 sec
+2025-07-03 21:11:17,765 - depth_experiment_mnist - INFO - Epoch 11/20
+2025-07-03 21:11:31,568 - depth_experiment_mnist - INFO - Epoch 11: Train Loss: 0.0118, Test Loss: 0.0719, Train Acc: 0.9964, Test Acc: 0.9822, Time: 13.80 sec
+2025-07-03 21:11:31,568 - depth_experiment_mnist - INFO - Epoch 12/20
+2025-07-03 21:11:45,121 - depth_experiment_mnist - INFO - Epoch 12: Train Loss: 0.0115, Test Loss: 0.0868, Train Acc: 0.9962, Test Acc: 0.9788, Time: 13.55 sec
+2025-07-03 21:11:45,121 - depth_experiment_mnist - INFO - Epoch 13/20
+2025-07-03 21:11:58,528 - depth_experiment_mnist - INFO - Epoch 13: Train Loss: 0.0147, Test Loss: 0.0813, Train Acc: 0.9952, Test Acc: 0.9772, Time: 13.41 sec
+2025-07-03 21:11:58,528 - depth_experiment_mnist - INFO - Epoch 14/20
+2025-07-03 21:12:12,000 - depth_experiment_mnist - INFO - Epoch 14: Train Loss: 0.0091, Test Loss: 0.0891, Train Acc: 0.9970, Test Acc: 0.9794, Time: 13.47 sec
+2025-07-03 21:12:12,000 - depth_experiment_mnist - INFO - Epoch 15/20
+2025-07-03 21:12:25,665 - depth_experiment_mnist - INFO - Epoch 15: Train Loss: 0.0060, Test Loss: 0.0806, Train Acc: 0.9983, Test Acc: 0.9795, Time: 13.66 sec
+2025-07-03 21:12:25,665 - depth_experiment_mnist - INFO - Epoch 16/20
+2025-07-03 21:12:39,821 - depth_experiment_mnist - INFO - Epoch 16: Train Loss: 0.0054, Test Loss: 0.1080, Train Acc: 0.9984, Test Acc: 0.9747, Time: 14.16 sec
+2025-07-03 21:12:39,821 - depth_experiment_mnist - INFO - Epoch 17/20
+2025-07-03 21:12:53,238 - depth_experiment_mnist - INFO - Epoch 17: Train Loss: 0.0097, Test Loss: 0.1019, Train Acc: 0.9967, Test Acc: 0.9777, Time: 13.42 sec
+2025-07-03 21:12:53,238 - depth_experiment_mnist - INFO - Epoch 18/20
+2025-07-03 21:13:07,612 - depth_experiment_mnist - INFO - Epoch 18: Train Loss: 0.0096, Test Loss: 0.1071, Train Acc: 0.9968, Test Acc: 0.9757, Time: 14.37 sec
+2025-07-03 21:13:07,612 - depth_experiment_mnist - INFO - Epoch 19/20
+2025-07-03 21:13:21,181 - depth_experiment_mnist - INFO - Epoch 19: Train Loss: 0.0071, Test Loss: 0.1082, Train Acc: 0.9975, Test Acc: 0.9772, Time: 13.57 sec
+2025-07-03 21:13:21,181 - depth_experiment_mnist - INFO - Epoch 20/20
+2025-07-03 21:13:35,543 - depth_experiment_mnist - INFO - Epoch 20: Train Loss: 0.0093, Test Loss: 0.0949, Train Acc: 0.9965, Test Acc: 0.9814, Time: 14.36 sec
+2025-07-03 21:13:35,843 - depth_experiment_mnist - INFO - 
+=== Depth: 3 layers ===
+2025-07-03 21:13:35,846 - depth_experiment_mnist - INFO - Model parameters: 269,322
+2025-07-03 21:13:35,846 - depth_experiment_mnist - INFO - Epoch 1/20
+2025-07-03 21:13:49,806 - depth_experiment_mnist - INFO - Epoch 1: Train Loss: 0.2551, Test Loss: 0.1243, Train Acc: 0.9241, Test Acc: 0.9600, Time: 13.96 sec
+2025-07-03 21:13:49,806 - depth_experiment_mnist - INFO - Epoch 2/20
+2025-07-03 21:14:03,547 - depth_experiment_mnist - INFO - Epoch 2: Train Loss: 0.0978, Test Loss: 0.0890, Train Acc: 0.9703, Test Acc: 0.9712, Time: 13.74 sec
+2025-07-03 21:14:03,547 - depth_experiment_mnist - INFO - Epoch 3/20
+2025-07-03 21:14:17,210 - depth_experiment_mnist - INFO - Epoch 3: Train Loss: 0.0655, Test Loss: 0.0784, Train Acc: 0.9794, Test Acc: 0.9755, Time: 13.66 sec
+2025-07-03 21:14:17,210 - depth_experiment_mnist - INFO - Epoch 4/20
+2025-07-03 21:14:30,758 - depth_experiment_mnist - INFO - Epoch 4: Train Loss: 0.0472, Test Loss: 0.0662, Train Acc: 0.9851, Test Acc: 0.9805, Time: 13.55 sec
+2025-07-03 21:14:30,758 - depth_experiment_mnist - INFO - Epoch 5/20
+2025-07-03 21:14:44,351 - depth_experiment_mnist - INFO - Epoch 5: Train Loss: 0.0372, Test Loss: 0.0715, Train Acc: 0.9878, Test Acc: 0.9785, Time: 13.59 sec
+2025-07-03 21:14:44,351 - depth_experiment_mnist - INFO - Epoch 6/20
+2025-07-03 21:14:57,878 - depth_experiment_mnist - INFO - Epoch 6: Train Loss: 0.0293, Test Loss: 0.0837, Train Acc: 0.9900, Test Acc: 0.9762, Time: 13.53 sec
+2025-07-03 21:14:57,878 - depth_experiment_mnist - INFO - Epoch 7/20
+2025-07-03 21:15:11,893 - depth_experiment_mnist - INFO - Epoch 7: Train Loss: 0.0260, Test Loss: 0.0824, Train Acc: 0.9914, Test Acc: 0.9775, Time: 14.01 sec
+2025-07-03 21:15:11,893 - depth_experiment_mnist - INFO - Epoch 8/20
+2025-07-03 21:15:25,561 - depth_experiment_mnist - INFO - Epoch 8: Train Loss: 0.0247, Test Loss: 0.0852, Train Acc: 0.9919, Test Acc: 0.9774, Time: 13.67 sec
+2025-07-03 21:15:25,561 - depth_experiment_mnist - INFO - Epoch 9/20
+2025-07-03 21:15:39,751 - depth_experiment_mnist - INFO - Epoch 9: Train Loss: 0.0162, Test Loss: 0.0802, Train Acc: 0.9945, Test Acc: 0.9814, Time: 14.19 sec
+2025-07-03 21:15:39,751 - depth_experiment_mnist - INFO - Epoch 10/20
+2025-07-03 21:15:53,268 - depth_experiment_mnist - INFO - Epoch 10: Train Loss: 0.0189, Test Loss: 0.0898, Train Acc: 0.9936, Test Acc: 0.9801, Time: 13.52 sec
+2025-07-03 21:15:53,268 - depth_experiment_mnist - INFO - Epoch 11/20
+2025-07-03 21:16:06,768 - depth_experiment_mnist - INFO - Epoch 11: Train Loss: 0.0156, Test Loss: 0.0803, Train Acc: 0.9948, Test Acc: 0.9806, Time: 13.50 sec
+2025-07-03 21:16:06,768 - depth_experiment_mnist - INFO - Epoch 12/20
+2025-07-03 21:16:20,217 - depth_experiment_mnist - INFO - Epoch 12: Train Loss: 0.0175, Test Loss: 0.0848, Train Acc: 0.9945, Test Acc: 0.9804, Time: 13.45 sec
+2025-07-03 21:16:20,217 - depth_experiment_mnist - INFO - Epoch 13/20
+2025-07-03 21:16:33,795 - depth_experiment_mnist - INFO - Epoch 13: Train Loss: 0.0126, Test Loss: 0.0922, Train Acc: 0.9960, Test Acc: 0.9793, Time: 13.58 sec
+2025-07-03 21:16:33,795 - depth_experiment_mnist - INFO - Epoch 14/20
+2025-07-03 21:16:47,464 - depth_experiment_mnist - INFO - Epoch 14: Train Loss: 0.0117, Test Loss: 0.1008, Train Acc: 0.9961, Test Acc: 0.9780, Time: 13.67 sec
+2025-07-03 21:16:47,464 - depth_experiment_mnist - INFO - Epoch 15/20
+2025-07-03 21:17:01,618 - depth_experiment_mnist - INFO - Epoch 15: Train Loss: 0.0152, Test Loss: 0.0985, Train Acc: 0.9948, Test Acc: 0.9793, Time: 14.15 sec
+2025-07-03 21:17:01,618 - depth_experiment_mnist - INFO - Epoch 16/20
+2025-07-03 21:17:15,140 - depth_experiment_mnist - INFO - Epoch 16: Train Loss: 0.0122, Test Loss: 0.1056, Train Acc: 0.9958, Test Acc: 0.9796, Time: 13.52 sec
+2025-07-03 21:17:15,140 - depth_experiment_mnist - INFO - Epoch 17/20
+2025-07-03 21:17:28,563 - depth_experiment_mnist - INFO - Epoch 17: Train Loss: 0.0103, Test Loss: 0.1155, Train Acc: 0.9967, Test Acc: 0.9775, Time: 13.42 sec
+2025-07-03 21:17:28,563 - depth_experiment_mnist - INFO - Epoch 18/20
+2025-07-03 21:17:41,981 - depth_experiment_mnist - INFO - Epoch 18: Train Loss: 0.0095, Test Loss: 0.1103, Train Acc: 0.9969, Test Acc: 0.9805, Time: 13.42 sec
+2025-07-03 21:17:41,981 - depth_experiment_mnist - INFO - Epoch 19/20
+2025-07-03 21:17:55,440 - depth_experiment_mnist - INFO - Epoch 19: Train Loss: 0.0108, Test Loss: 0.1011, Train Acc: 0.9963, Test Acc: 0.9810, Time: 13.46 sec
+2025-07-03 21:17:55,440 - depth_experiment_mnist - INFO - Epoch 20/20
+2025-07-03 21:18:09,907 - depth_experiment_mnist - INFO - Epoch 20: Train Loss: 0.0111, Test Loss: 0.1084, Train Acc: 0.9965, Test Acc: 0.9813, Time: 14.47 sec
+2025-07-03 21:18:10,208 - depth_experiment_mnist - INFO - 
+=== Depth: 5 layers ===
+2025-07-03 21:18:10,213 - depth_experiment_mnist - INFO - Model parameters: 400,906
+2025-07-03 21:18:10,213 - depth_experiment_mnist - INFO - Epoch 1/20
+2025-07-03 21:18:23,718 - depth_experiment_mnist - INFO - Epoch 1: Train Loss: 0.2835, Test Loss: 0.1491, Train Acc: 0.9127, Test Acc: 0.9519, Time: 13.51 sec
+2025-07-03 21:18:23,718 - depth_experiment_mnist - INFO - Epoch 2/20
+2025-07-03 21:18:37,748 - depth_experiment_mnist - INFO - Epoch 2: Train Loss: 0.1089, Test Loss: 0.0980, Train Acc: 0.9663, Test Acc: 0.9704, Time: 14.03 sec
+2025-07-03 21:18:37,748 - depth_experiment_mnist - INFO - Epoch 3/20
+2025-07-03 21:18:51,834 - depth_experiment_mnist - INFO - Epoch 3: Train Loss: 0.0762, Test Loss: 0.0843, Train Acc: 0.9762, Test Acc: 0.9732, Time: 14.09 sec
+2025-07-03 21:18:51,834 - depth_experiment_mnist - INFO - Epoch 4/20
+2025-07-03 21:19:05,704 - depth_experiment_mnist - INFO - Epoch 4: Train Loss: 0.0585, Test Loss: 0.0768, Train Acc: 0.9822, Test Acc: 0.9781, Time: 13.87 sec
+2025-07-03 21:19:05,704 - depth_experiment_mnist - INFO - Epoch 5/20
+2025-07-03 21:19:19,459 - depth_experiment_mnist - INFO - Epoch 5: Train Loss: 0.0494, Test Loss: 0.0912, Train Acc: 0.9845, Test Acc: 0.9730, Time: 13.76 sec
+2025-07-03 21:19:19,459 - depth_experiment_mnist - INFO - Epoch 6/20
+2025-07-03 21:19:33,200 - depth_experiment_mnist - INFO - Epoch 6: Train Loss: 0.0421, Test Loss: 0.0859, Train Acc: 0.9869, Test Acc: 0.9778, Time: 13.74 sec
+2025-07-03 21:19:33,200 - depth_experiment_mnist - INFO - Epoch 7/20
+2025-07-03 21:19:47,919 - depth_experiment_mnist - INFO - Epoch 7: Train Loss: 0.0346, Test Loss: 0.0710, Train Acc: 0.9890, Test Acc: 0.9805, Time: 14.72 sec
+2025-07-03 21:19:47,919 - depth_experiment_mnist - INFO - Epoch 8/20
+2025-07-03 21:20:02,921 - depth_experiment_mnist - INFO - Epoch 8: Train Loss: 0.0284, Test Loss: 0.0824, Train Acc: 0.9912, Test Acc: 0.9785, Time: 15.00 sec
+2025-07-03 21:20:02,921 - depth_experiment_mnist - INFO - Epoch 9/20
+2025-07-03 21:20:17,623 - depth_experiment_mnist - INFO - Epoch 9: Train Loss: 0.0272, Test Loss: 0.0801, Train Acc: 0.9910, Test Acc: 0.9786, Time: 14.70 sec
+2025-07-03 21:20:17,623 - depth_experiment_mnist - INFO - Epoch 10/20
+2025-07-03 21:20:31,820 - depth_experiment_mnist - INFO - Epoch 10: Train Loss: 0.0254, Test Loss: 0.0951, Train Acc: 0.9921, Test Acc: 0.9760, Time: 14.20 sec
+2025-07-03 21:20:31,820 - depth_experiment_mnist - INFO - Epoch 11/20
+2025-07-03 21:20:47,271 - depth_experiment_mnist - INFO - Epoch 11: Train Loss: 0.0254, Test Loss: 0.0762, Train Acc: 0.9921, Test Acc: 0.9806, Time: 15.45 sec
+2025-07-03 21:20:47,271 - depth_experiment_mnist - INFO - Epoch 12/20
+2025-07-03 21:21:01,991 - depth_experiment_mnist - INFO - Epoch 12: Train Loss: 0.0198, Test Loss: 0.0802, Train Acc: 0.9939, Test Acc: 0.9809, Time: 14.72 sec
+2025-07-03 21:21:01,992 - depth_experiment_mnist - INFO - Epoch 13/20
+2025-07-03 21:21:17,409 - depth_experiment_mnist - INFO - Epoch 13: Train Loss: 0.0187, Test Loss: 0.0987, Train Acc: 0.9940, Test Acc: 0.9787, Time: 15.42 sec
+2025-07-03 21:21:17,409 - depth_experiment_mnist - INFO - Epoch 14/20
+2025-07-03 21:21:32,100 - depth_experiment_mnist - INFO - Epoch 14: Train Loss: 0.0192, Test Loss: 0.0897, Train Acc: 0.9940, Test Acc: 0.9791, Time: 14.69 sec
+2025-07-03 21:21:32,101 - depth_experiment_mnist - INFO - Epoch 15/20
+2025-07-03 21:21:46,413 - depth_experiment_mnist - INFO - Epoch 15: Train Loss: 0.0171, Test Loss: 0.1116, Train Acc: 0.9943, Test Acc: 0.9746, Time: 14.31 sec
+2025-07-03 21:21:46,413 - depth_experiment_mnist - INFO - Epoch 16/20
+2025-07-03 21:22:00,604 - depth_experiment_mnist - INFO - Epoch 16: Train Loss: 0.0165, Test Loss: 0.0913, Train Acc: 0.9950, Test Acc: 0.9816, Time: 14.19 sec
+2025-07-03 21:22:00,604 - depth_experiment_mnist - INFO - Epoch 17/20
+2025-07-03 21:22:14,854 - depth_experiment_mnist - INFO - Epoch 17: Train Loss: 0.0154, Test Loss: 0.0894, Train Acc: 0.9954, Test Acc: 0.9796, Time: 14.25 sec
+2025-07-03 21:22:14,855 - depth_experiment_mnist - INFO - Epoch 18/20
+2025-07-03 21:22:28,991 - depth_experiment_mnist - INFO - Epoch 18: Train Loss: 0.0137, Test Loss: 0.1070, Train Acc: 0.9960, Test Acc: 0.9806, Time: 14.14 sec
+2025-07-03 21:22:28,991 - depth_experiment_mnist - INFO - Epoch 19/20
+2025-07-03 21:22:43,426 - depth_experiment_mnist - INFO - Epoch 19: Train Loss: 0.0116, Test Loss: 0.0884, Train Acc: 0.9967, Test Acc: 0.9830, Time: 14.44 sec
+2025-07-03 21:22:43,426 - depth_experiment_mnist - INFO - Epoch 20/20
+2025-07-03 21:22:57,161 - depth_experiment_mnist - INFO - Epoch 20: Train Loss: 0.0140, Test Loss: 0.0934, Train Acc: 0.9959, Test Acc: 0.9825, Time: 13.73 sec
+2025-07-03 21:22:57,456 - depth_experiment_mnist - INFO - 
+=== Depth: 7 layers ===
+2025-07-03 21:22:57,461 - depth_experiment_mnist - INFO - Model parameters: 532,490
+2025-07-03 21:22:57,461 - depth_experiment_mnist - INFO - Epoch 1/20
+2025-07-03 21:23:12,267 - depth_experiment_mnist - INFO - Epoch 1: Train Loss: 0.3317, Test Loss: 0.1682, Train Acc: 0.8959, Test Acc: 0.9494, Time: 14.81 sec
+2025-07-03 21:23:12,267 - depth_experiment_mnist - INFO - Epoch 2/20
+2025-07-03 21:23:26,402 - depth_experiment_mnist - INFO - Epoch 2: Train Loss: 0.1228, Test Loss: 0.1285, Train Acc: 0.9634, Test Acc: 0.9603, Time: 14.14 sec
+2025-07-03 21:23:26,402 - depth_experiment_mnist - INFO - Epoch 3/20
+2025-07-03 21:23:40,344 - depth_experiment_mnist - INFO - Epoch 3: Train Loss: 0.0919, Test Loss: 0.1173, Train Acc: 0.9732, Test Acc: 0.9678, Time: 13.94 sec
+2025-07-03 21:23:40,344 - depth_experiment_mnist - INFO - Epoch 4/20
+2025-07-03 21:23:54,200 - depth_experiment_mnist - INFO - Epoch 4: Train Loss: 0.0701, Test Loss: 0.0902, Train Acc: 0.9797, Test Acc: 0.9755, Time: 13.86 sec
+2025-07-03 21:23:54,200 - depth_experiment_mnist - INFO - Epoch 5/20
+2025-07-03 21:24:09,082 - depth_experiment_mnist - INFO - Epoch 5: Train Loss: 0.0605, Test Loss: 0.1007, Train Acc: 0.9821, Test Acc: 0.9745, Time: 14.88 sec
+2025-07-03 21:24:09,082 - depth_experiment_mnist - INFO - Epoch 6/20
+2025-07-03 21:24:23,089 - depth_experiment_mnist - INFO - Epoch 6: Train Loss: 0.0501, Test Loss: 0.1011, Train Acc: 0.9856, Test Acc: 0.9746, Time: 14.01 sec
+2025-07-03 21:24:23,089 - depth_experiment_mnist - INFO - Epoch 7/20
+2025-07-03 21:24:37,244 - depth_experiment_mnist - INFO - Epoch 7: Train Loss: 0.0452, Test Loss: 0.0898, Train Acc: 0.9868, Test Acc: 0.9763, Time: 14.16 sec
+2025-07-03 21:24:37,244 - depth_experiment_mnist - INFO - Epoch 8/20
+2025-07-03 21:24:51,229 - depth_experiment_mnist - INFO - Epoch 8: Train Loss: 0.0393, Test Loss: 0.0954, Train Acc: 0.9889, Test Acc: 0.9769, Time: 13.99 sec
+2025-07-03 21:24:51,230 - depth_experiment_mnist - INFO - Epoch 9/20
+2025-07-03 21:25:05,199 - depth_experiment_mnist - INFO - Epoch 9: Train Loss: 0.0387, Test Loss: 0.1006, Train Acc: 0.9887, Test Acc: 0.9757, Time: 13.97 sec
+2025-07-03 21:25:05,199 - depth_experiment_mnist - INFO - Epoch 10/20
+2025-07-03 21:25:19,167 - depth_experiment_mnist - INFO - Epoch 10: Train Loss: 0.0314, Test Loss: 0.0852, Train Acc: 0.9909, Test Acc: 0.9798, Time: 13.97 sec
+2025-07-03 21:25:19,167 - depth_experiment_mnist - INFO - Epoch 11/20
+2025-07-03 21:25:33,895 - depth_experiment_mnist - INFO - Epoch 11: Train Loss: 0.0314, Test Loss: 0.0923, Train Acc: 0.9909, Test Acc: 0.9795, Time: 14.73 sec
+2025-07-03 21:25:33,895 - depth_experiment_mnist - INFO - Epoch 12/20
+2025-07-03 21:25:48,604 - depth_experiment_mnist - INFO - Epoch 12: Train Loss: 0.0252, Test Loss: 0.0924, Train Acc: 0.9926, Test Acc: 0.9809, Time: 14.71 sec
+2025-07-03 21:25:48,604 - depth_experiment_mnist - INFO - Epoch 13/20
+2025-07-03 21:26:02,501 - depth_experiment_mnist - INFO - Epoch 13: Train Loss: 0.0271, Test Loss: 0.0962, Train Acc: 0.9919, Test Acc: 0.9809, Time: 13.90 sec
+2025-07-03 21:26:02,501 - depth_experiment_mnist - INFO - Epoch 14/20
+2025-07-03 21:26:16,514 - depth_experiment_mnist - INFO - Epoch 14: Train Loss: 0.0233, Test Loss: 0.1092, Train Acc: 0.9934, Test Acc: 0.9782, Time: 14.01 sec
+2025-07-03 21:26:16,514 - depth_experiment_mnist - INFO - Epoch 15/20
+2025-07-03 21:26:30,457 - depth_experiment_mnist - INFO - Epoch 15: Train Loss: 0.0211, Test Loss: 0.0969, Train Acc: 0.9941, Test Acc: 0.9807, Time: 13.94 sec
+2025-07-03 21:26:30,457 - depth_experiment_mnist - INFO - Epoch 16/20
+2025-07-03 21:26:44,343 - depth_experiment_mnist - INFO - Epoch 16: Train Loss: 0.0204, Test Loss: 0.1058, Train Acc: 0.9941, Test Acc: 0.9809, Time: 13.89 sec
+2025-07-03 21:26:44,343 - depth_experiment_mnist - INFO - Epoch 17/20
+2025-07-03 21:26:58,914 - depth_experiment_mnist - INFO - Epoch 17: Train Loss: 0.0201, Test Loss: 0.0912, Train Acc: 0.9943, Test Acc: 0.9821, Time: 14.57 sec
+2025-07-03 21:26:58,914 - depth_experiment_mnist - INFO - Epoch 18/20
+2025-07-03 21:27:12,932 - depth_experiment_mnist - INFO - Epoch 18: Train Loss: 0.0171, Test Loss: 0.1023, Train Acc: 0.9954, Test Acc: 0.9777, Time: 14.02 sec
+2025-07-03 21:27:12,932 - depth_experiment_mnist - INFO - Epoch 19/20
+2025-07-03 21:27:26,927 - depth_experiment_mnist - INFO - Epoch 19: Train Loss: 0.0184, Test Loss: 0.1108, Train Acc: 0.9949, Test Acc: 0.9805, Time: 14.00 sec
+2025-07-03 21:27:26,928 - depth_experiment_mnist - INFO - Epoch 20/20
+2025-07-03 21:27:40,971 - depth_experiment_mnist - INFO - Epoch 20: Train Loss: 0.0172, Test Loss: 0.1067, Train Acc: 0.9954, Test Acc: 0.9798, Time: 14.04 sec
+2025-07-03 21:27:41,668 - depth_experiment_mnist - INFO - 
+==================================================
+2025-07-03 21:27:41,669 - depth_experiment_mnist - INFO - MNIST - Results Summary:
+2025-07-03 21:27:41,669 - depth_experiment_mnist - INFO - Depth 1: Test Acc: 0.9245, Time: 268.5 sec, Params: 7,850
+2025-07-03 21:27:41,669 - depth_experiment_mnist - INFO - Depth 2: Test Acc: 0.9814, Time: 273.0 sec, Params: 203,530
+2025-07-03 21:27:41,669 - depth_experiment_mnist - INFO - Depth 3: Test Acc: 0.9813, Time: 274.1 sec, Params: 269,322
+2025-07-03 21:27:41,669 - depth_experiment_mnist - INFO - Depth 5: Test Acc: 0.9825, Time: 286.9 sec, Params: 400,906
+2025-07-03 21:27:41,669 - depth_experiment_mnist - INFO - Depth 7: Test Acc: 0.9798, Time: 283.5 sec, Params: 532,490
+2025-07-03 21:27:41,670 - depth_experiment_mnist - INFO - Results saved to results/depth_experiments/mnist_results.json
+2025-07-03 21:27:41,673 - depth_experiment_mnist - INFO - Starting depth experiment for mnist
+2025-07-03 21:27:41,673 - depth_experiment_mnist - INFO - Starting depth experiment for mnist
+2025-07-03 21:27:41,673 - depth_experiment_mnist - INFO - Depths: [5, 7], Dropout: True, BatchNorm: True
+2025-07-03 21:27:41,673 - depth_experiment_mnist - INFO - Depths: [5, 7], Dropout: True, BatchNorm: True
+2025-07-03 21:27:41,759 - depth_experiment_mnist - INFO - 
+=== Depth: 5 layers ===
+2025-07-03 21:27:41,759 - depth_experiment_mnist - INFO - 
+=== Depth: 5 layers ===
+2025-07-03 21:27:41,765 - depth_experiment_mnist - INFO - Model parameters: 402,954
+2025-07-03 21:27:41,765 - depth_experiment_mnist - INFO - Model parameters: 402,954
+2025-07-03 21:27:41,765 - depth_experiment_mnist - INFO - Epoch 1/20
+2025-07-03 21:27:41,765 - depth_experiment_mnist - INFO - Epoch 1/20
+2025-07-03 21:27:56,210 - depth_experiment_mnist - INFO - Epoch 1: Train Loss: 0.5625, Test Loss: 0.1640, Train Acc: 0.8294, Test Acc: 0.9478, Time: 14.44 sec
+2025-07-03 21:27:56,210 - depth_experiment_mnist - INFO - Epoch 1: Train Loss: 0.5625, Test Loss: 0.1640, Train Acc: 0.8294, Test Acc: 0.9478, Time: 14.44 sec
+2025-07-03 21:27:56,210 - depth_experiment_mnist - INFO - Epoch 2/20
+2025-07-03 21:27:56,210 - depth_experiment_mnist - INFO - Epoch 2/20
+2025-07-03 21:28:10,883 - depth_experiment_mnist - INFO - Epoch 2: Train Loss: 0.2805, Test Loss: 0.1235, Train Acc: 0.9204, Test Acc: 0.9632, Time: 14.67 sec
+2025-07-03 21:28:10,883 - depth_experiment_mnist - INFO - Epoch 2: Train Loss: 0.2805, Test Loss: 0.1235, Train Acc: 0.9204, Test Acc: 0.9632, Time: 14.67 sec
+2025-07-03 21:28:10,883 - depth_experiment_mnist - INFO - Epoch 3/20
+2025-07-03 21:28:10,883 - depth_experiment_mnist - INFO - Epoch 3/20
+2025-07-03 21:28:25,885 - depth_experiment_mnist - INFO - Epoch 3: Train Loss: 0.2303, Test Loss: 0.0998, Train Acc: 0.9324, Test Acc: 0.9708, Time: 15.00 sec
+2025-07-03 21:28:25,885 - depth_experiment_mnist - INFO - Epoch 3: Train Loss: 0.2303, Test Loss: 0.0998, Train Acc: 0.9324, Test Acc: 0.9708, Time: 15.00 sec
+2025-07-03 21:28:25,885 - depth_experiment_mnist - INFO - Epoch 4/20
+2025-07-03 21:28:25,885 - depth_experiment_mnist - INFO - Epoch 4/20
+2025-07-03 21:28:40,090 - depth_experiment_mnist - INFO - Epoch 4: Train Loss: 0.2014, Test Loss: 0.0908, Train Acc: 0.9418, Test Acc: 0.9732, Time: 14.20 sec
+2025-07-03 21:28:40,090 - depth_experiment_mnist - INFO - Epoch 4: Train Loss: 0.2014, Test Loss: 0.0908, Train Acc: 0.9418, Test Acc: 0.9732, Time: 14.20 sec
+2025-07-03 21:28:40,090 - depth_experiment_mnist - INFO - Epoch 5/20
+2025-07-03 21:28:40,090 - depth_experiment_mnist - INFO - Epoch 5/20
+2025-07-03 21:28:54,196 - depth_experiment_mnist - INFO - Epoch 5: Train Loss: 0.1786, Test Loss: 0.0881, Train Acc: 0.9488, Test Acc: 0.9734, Time: 14.11 sec
+2025-07-03 21:28:54,196 - depth_experiment_mnist - INFO - Epoch 5: Train Loss: 0.1786, Test Loss: 0.0881, Train Acc: 0.9488, Test Acc: 0.9734, Time: 14.11 sec
+2025-07-03 21:28:54,196 - depth_experiment_mnist - INFO - Epoch 6/20
+2025-07-03 21:28:54,196 - depth_experiment_mnist - INFO - Epoch 6/20
+2025-07-03 21:29:08,636 - depth_experiment_mnist - INFO - Epoch 6: Train Loss: 0.1677, Test Loss: 0.0834, Train Acc: 0.9520, Test Acc: 0.9756, Time: 14.44 sec
+2025-07-03 21:29:08,636 - depth_experiment_mnist - INFO - Epoch 6: Train Loss: 0.1677, Test Loss: 0.0834, Train Acc: 0.9520, Test Acc: 0.9756, Time: 14.44 sec
+2025-07-03 21:29:08,636 - depth_experiment_mnist - INFO - Epoch 7/20
+2025-07-03 21:29:08,636 - depth_experiment_mnist - INFO - Epoch 7/20
+2025-07-03 21:29:23,087 - depth_experiment_mnist - INFO - Epoch 7: Train Loss: 0.1551, Test Loss: 0.0782, Train Acc: 0.9558, Test Acc: 0.9770, Time: 14.45 sec
+2025-07-03 21:29:23,087 - depth_experiment_mnist - INFO - Epoch 7: Train Loss: 0.1551, Test Loss: 0.0782, Train Acc: 0.9558, Test Acc: 0.9770, Time: 14.45 sec
+2025-07-03 21:29:23,087 - depth_experiment_mnist - INFO - Epoch 8/20
+2025-07-03 21:29:23,087 - depth_experiment_mnist - INFO - Epoch 8/20
+2025-07-03 21:29:38,268 - depth_experiment_mnist - INFO - Epoch 8: Train Loss: 0.1509, Test Loss: 0.0719, Train Acc: 0.9558, Test Acc: 0.9786, Time: 15.18 sec
+2025-07-03 21:29:38,268 - depth_experiment_mnist - INFO - Epoch 8: Train Loss: 0.1509, Test Loss: 0.0719, Train Acc: 0.9558, Test Acc: 0.9786, Time: 15.18 sec
+2025-07-03 21:29:38,268 - depth_experiment_mnist - INFO - Epoch 9/20
+2025-07-03 21:29:38,268 - depth_experiment_mnist - INFO - Epoch 9/20
+2025-07-03 21:29:52,427 - depth_experiment_mnist - INFO - Epoch 9: Train Loss: 0.1387, Test Loss: 0.0748, Train Acc: 0.9599, Test Acc: 0.9776, Time: 14.16 sec
+2025-07-03 21:29:52,427 - depth_experiment_mnist - INFO - Epoch 9: Train Loss: 0.1387, Test Loss: 0.0748, Train Acc: 0.9599, Test Acc: 0.9776, Time: 14.16 sec
+2025-07-03 21:29:52,427 - depth_experiment_mnist - INFO - Epoch 10/20
+2025-07-03 21:29:52,427 - depth_experiment_mnist - INFO - Epoch 10/20
+2025-07-03 21:30:06,520 - depth_experiment_mnist - INFO - Epoch 10: Train Loss: 0.1370, Test Loss: 0.0718, Train Acc: 0.9607, Test Acc: 0.9795, Time: 14.09 sec
+2025-07-03 21:30:06,520 - depth_experiment_mnist - INFO - Epoch 10: Train Loss: 0.1370, Test Loss: 0.0718, Train Acc: 0.9607, Test Acc: 0.9795, Time: 14.09 sec
+2025-07-03 21:30:06,520 - depth_experiment_mnist - INFO - Epoch 11/20
+2025-07-03 21:30:06,520 - depth_experiment_mnist - INFO - Epoch 11/20
+2025-07-03 21:30:20,736 - depth_experiment_mnist - INFO - Epoch 11: Train Loss: 0.1263, Test Loss: 0.0709, Train Acc: 0.9626, Test Acc: 0.9794, Time: 14.22 sec
+2025-07-03 21:30:20,736 - depth_experiment_mnist - INFO - Epoch 11: Train Loss: 0.1263, Test Loss: 0.0709, Train Acc: 0.9626, Test Acc: 0.9794, Time: 14.22 sec
+2025-07-03 21:30:20,736 - depth_experiment_mnist - INFO - Epoch 12/20
+2025-07-03 21:30:20,736 - depth_experiment_mnist - INFO - Epoch 12/20
+2025-07-03 21:30:34,915 - depth_experiment_mnist - INFO - Epoch 12: Train Loss: 0.1233, Test Loss: 0.0658, Train Acc: 0.9640, Test Acc: 0.9801, Time: 14.18 sec
+2025-07-03 21:30:34,915 - depth_experiment_mnist - INFO - Epoch 12: Train Loss: 0.1233, Test Loss: 0.0658, Train Acc: 0.9640, Test Acc: 0.9801, Time: 14.18 sec
+2025-07-03 21:30:34,915 - depth_experiment_mnist - INFO - Epoch 13/20
+2025-07-03 21:30:34,915 - depth_experiment_mnist - INFO - Epoch 13/20
+2025-07-03 21:30:50,302 - depth_experiment_mnist - INFO - Epoch 13: Train Loss: 0.1192, Test Loss: 0.0639, Train Acc: 0.9651, Test Acc: 0.9819, Time: 15.39 sec
+2025-07-03 21:30:50,302 - depth_experiment_mnist - INFO - Epoch 13: Train Loss: 0.1192, Test Loss: 0.0639, Train Acc: 0.9651, Test Acc: 0.9819, Time: 15.39 sec
+2025-07-03 21:30:50,302 - depth_experiment_mnist - INFO - Epoch 14/20
+2025-07-03 21:30:50,302 - depth_experiment_mnist - INFO - Epoch 14/20
+2025-07-03 21:31:04,797 - depth_experiment_mnist - INFO - Epoch 14: Train Loss: 0.1134, Test Loss: 0.0640, Train Acc: 0.9669, Test Acc: 0.9803, Time: 14.49 sec
+2025-07-03 21:31:04,797 - depth_experiment_mnist - INFO - Epoch 14: Train Loss: 0.1134, Test Loss: 0.0640, Train Acc: 0.9669, Test Acc: 0.9803, Time: 14.49 sec
+2025-07-03 21:31:04,797 - depth_experiment_mnist - INFO - Epoch 15/20
+2025-07-03 21:31:04,797 - depth_experiment_mnist - INFO - Epoch 15/20
+2025-07-03 21:31:19,103 - depth_experiment_mnist - INFO - Epoch 15: Train Loss: 0.1130, Test Loss: 0.0663, Train Acc: 0.9666, Test Acc: 0.9815, Time: 14.31 sec
+2025-07-03 21:31:19,103 - depth_experiment_mnist - INFO - Epoch 15: Train Loss: 0.1130, Test Loss: 0.0663, Train Acc: 0.9666, Test Acc: 0.9815, Time: 14.31 sec
+2025-07-03 21:31:19,103 - depth_experiment_mnist - INFO - Epoch 16/20
+2025-07-03 21:31:19,103 - depth_experiment_mnist - INFO - Epoch 16/20
+2025-07-03 21:31:33,176 - depth_experiment_mnist - INFO - Epoch 16: Train Loss: 0.1048, Test Loss: 0.0649, Train Acc: 0.9687, Test Acc: 0.9811, Time: 14.07 sec
+2025-07-03 21:31:33,176 - depth_experiment_mnist - INFO - Epoch 16: Train Loss: 0.1048, Test Loss: 0.0649, Train Acc: 0.9687, Test Acc: 0.9811, Time: 14.07 sec
+2025-07-03 21:31:33,176 - depth_experiment_mnist - INFO - Epoch 17/20
+2025-07-03 21:31:33,176 - depth_experiment_mnist - INFO - Epoch 17/20
+2025-07-03 21:31:47,516 - depth_experiment_mnist - INFO - Epoch 17: Train Loss: 0.1048, Test Loss: 0.0596, Train Acc: 0.9700, Test Acc: 0.9830, Time: 14.34 sec
+2025-07-03 21:31:47,516 - depth_experiment_mnist - INFO - Epoch 17: Train Loss: 0.1048, Test Loss: 0.0596, Train Acc: 0.9700, Test Acc: 0.9830, Time: 14.34 sec
+2025-07-03 21:31:47,516 - depth_experiment_mnist - INFO - Epoch 18/20
+2025-07-03 21:31:47,516 - depth_experiment_mnist - INFO - Epoch 18/20
+2025-07-03 21:32:01,800 - depth_experiment_mnist - INFO - Epoch 18: Train Loss: 0.1021, Test Loss: 0.0594, Train Acc: 0.9703, Test Acc: 0.9831, Time: 14.28 sec
+2025-07-03 21:32:01,800 - depth_experiment_mnist - INFO - Epoch 18: Train Loss: 0.1021, Test Loss: 0.0594, Train Acc: 0.9703, Test Acc: 0.9831, Time: 14.28 sec
+2025-07-03 21:32:01,800 - depth_experiment_mnist - INFO - Epoch 19/20
+2025-07-03 21:32:01,800 - depth_experiment_mnist - INFO - Epoch 19/20
+2025-07-03 21:32:16,570 - depth_experiment_mnist - INFO - Epoch 19: Train Loss: 0.1004, Test Loss: 0.0589, Train Acc: 0.9700, Test Acc: 0.9826, Time: 14.77 sec
+2025-07-03 21:32:16,570 - depth_experiment_mnist - INFO - Epoch 19: Train Loss: 0.1004, Test Loss: 0.0589, Train Acc: 0.9700, Test Acc: 0.9826, Time: 14.77 sec
+2025-07-03 21:32:16,570 - depth_experiment_mnist - INFO - Epoch 20/20
+2025-07-03 21:32:16,570 - depth_experiment_mnist - INFO - Epoch 20/20
+2025-07-03 21:32:30,768 - depth_experiment_mnist - INFO - Epoch 20: Train Loss: 0.0964, Test Loss: 0.0616, Train Acc: 0.9716, Test Acc: 0.9820, Time: 14.20 sec
+2025-07-03 21:32:30,768 - depth_experiment_mnist - INFO - Epoch 20: Train Loss: 0.0964, Test Loss: 0.0616, Train Acc: 0.9716, Test Acc: 0.9820, Time: 14.20 sec
+2025-07-03 21:32:31,066 - depth_experiment_mnist - INFO - 
+=== Depth: 7 layers ===
+2025-07-03 21:32:31,066 - depth_experiment_mnist - INFO - 
+=== Depth: 7 layers ===
+2025-07-03 21:32:31,074 - depth_experiment_mnist - INFO - Model parameters: 535,562
+2025-07-03 21:32:31,074 - depth_experiment_mnist - INFO - Model parameters: 535,562
+2025-07-03 21:32:31,075 - depth_experiment_mnist - INFO - Epoch 1/20
+2025-07-03 21:32:31,075 - depth_experiment_mnist - INFO - Epoch 1/20
+2025-07-03 21:32:46,341 - depth_experiment_mnist - INFO - Epoch 1: Train Loss: 0.8727, Test Loss: 0.2229, Train Acc: 0.7103, Test Acc: 0.9358, Time: 15.27 sec
+2025-07-03 21:32:46,341 - depth_experiment_mnist - INFO - Epoch 1: Train Loss: 0.8727, Test Loss: 0.2229, Train Acc: 0.7103, Test Acc: 0.9358, Time: 15.27 sec
+2025-07-03 21:32:46,341 - depth_experiment_mnist - INFO - Epoch 2/20
+2025-07-03 21:32:46,341 - depth_experiment_mnist - INFO - Epoch 2/20
+2025-07-03 21:33:01,689 - depth_experiment_mnist - INFO - Epoch 2: Train Loss: 0.3782, Test Loss: 0.1511, Train Acc: 0.8958, Test Acc: 0.9588, Time: 15.35 sec
+2025-07-03 21:33:01,689 - depth_experiment_mnist - INFO - Epoch 2: Train Loss: 0.3782, Test Loss: 0.1511, Train Acc: 0.8958, Test Acc: 0.9588, Time: 15.35 sec
+2025-07-03 21:33:01,689 - depth_experiment_mnist - INFO - Epoch 3/20
+2025-07-03 21:33:01,689 - depth_experiment_mnist - INFO - Epoch 3/20
+2025-07-03 21:33:18,562 - depth_experiment_mnist - INFO - Epoch 3: Train Loss: 0.3050, Test Loss: 0.1284, Train Acc: 0.9185, Test Acc: 0.9644, Time: 16.87 sec
+2025-07-03 21:33:18,562 - depth_experiment_mnist - INFO - Epoch 3: Train Loss: 0.3050, Test Loss: 0.1284, Train Acc: 0.9185, Test Acc: 0.9644, Time: 16.87 sec
+2025-07-03 21:33:18,562 - depth_experiment_mnist - INFO - Epoch 4/20
+2025-07-03 21:33:18,562 - depth_experiment_mnist - INFO - Epoch 4/20
+2025-07-03 21:33:33,858 - depth_experiment_mnist - INFO - Epoch 4: Train Loss: 0.2670, Test Loss: 0.1126, Train Acc: 0.9286, Test Acc: 0.9695, Time: 15.30 sec
+2025-07-03 21:33:33,858 - depth_experiment_mnist - INFO - Epoch 4: Train Loss: 0.2670, Test Loss: 0.1126, Train Acc: 0.9286, Test Acc: 0.9695, Time: 15.30 sec
+2025-07-03 21:33:33,858 - depth_experiment_mnist - INFO - Epoch 5/20
+2025-07-03 21:33:33,858 - depth_experiment_mnist - INFO - Epoch 5/20
+2025-07-03 21:33:49,080 - depth_experiment_mnist - INFO - Epoch 5: Train Loss: 0.2357, Test Loss: 0.1060, Train Acc: 0.9384, Test Acc: 0.9720, Time: 15.22 sec
+2025-07-03 21:33:49,080 - depth_experiment_mnist - INFO - Epoch 5: Train Loss: 0.2357, Test Loss: 0.1060, Train Acc: 0.9384, Test Acc: 0.9720, Time: 15.22 sec
+2025-07-03 21:33:49,080 - depth_experiment_mnist - INFO - Epoch 6/20
+2025-07-03 21:33:49,080 - depth_experiment_mnist - INFO - Epoch 6/20
+2025-07-03 21:34:04,850 - depth_experiment_mnist - INFO - Epoch 6: Train Loss: 0.2179, Test Loss: 0.1001, Train Acc: 0.9419, Test Acc: 0.9730, Time: 15.77 sec
+2025-07-03 21:34:04,850 - depth_experiment_mnist - INFO - Epoch 6: Train Loss: 0.2179, Test Loss: 0.1001, Train Acc: 0.9419, Test Acc: 0.9730, Time: 15.77 sec
+2025-07-03 21:34:04,850 - depth_experiment_mnist - INFO - Epoch 7/20
+2025-07-03 21:34:04,850 - depth_experiment_mnist - INFO - Epoch 7/20
+2025-07-03 21:34:20,283 - depth_experiment_mnist - INFO - Epoch 7: Train Loss: 0.2015, Test Loss: 0.0939, Train Acc: 0.9468, Test Acc: 0.9742, Time: 15.43 sec
+2025-07-03 21:34:20,283 - depth_experiment_mnist - INFO - Epoch 7: Train Loss: 0.2015, Test Loss: 0.0939, Train Acc: 0.9468, Test Acc: 0.9742, Time: 15.43 sec
+2025-07-03 21:34:20,283 - depth_experiment_mnist - INFO - Epoch 8/20
+2025-07-03 21:34:20,283 - depth_experiment_mnist - INFO - Epoch 8/20
+2025-07-03 21:34:35,353 - depth_experiment_mnist - INFO - Epoch 8: Train Loss: 0.1932, Test Loss: 0.0933, Train Acc: 0.9492, Test Acc: 0.9753, Time: 15.07 sec
+2025-07-03 21:34:35,353 - depth_experiment_mnist - INFO - Epoch 8: Train Loss: 0.1932, Test Loss: 0.0933, Train Acc: 0.9492, Test Acc: 0.9753, Time: 15.07 sec
+2025-07-03 21:34:35,353 - depth_experiment_mnist - INFO - Epoch 9/20
+2025-07-03 21:34:35,353 - depth_experiment_mnist - INFO - Epoch 9/20
+2025-07-03 21:34:50,398 - depth_experiment_mnist - INFO - Epoch 9: Train Loss: 0.1830, Test Loss: 0.0847, Train Acc: 0.9526, Test Acc: 0.9762, Time: 15.05 sec
+2025-07-03 21:34:50,398 - depth_experiment_mnist - INFO - Epoch 9: Train Loss: 0.1830, Test Loss: 0.0847, Train Acc: 0.9526, Test Acc: 0.9762, Time: 15.05 sec
+2025-07-03 21:34:50,398 - depth_experiment_mnist - INFO - Epoch 10/20
+2025-07-03 21:34:50,398 - depth_experiment_mnist - INFO - Epoch 10/20
+2025-07-03 21:35:05,521 - depth_experiment_mnist - INFO - Epoch 10: Train Loss: 0.1741, Test Loss: 0.0825, Train Acc: 0.9539, Test Acc: 0.9769, Time: 15.12 sec
+2025-07-03 21:35:05,521 - depth_experiment_mnist - INFO - Epoch 10: Train Loss: 0.1741, Test Loss: 0.0825, Train Acc: 0.9539, Test Acc: 0.9769, Time: 15.12 sec
+2025-07-03 21:35:05,522 - depth_experiment_mnist - INFO - Epoch 11/20
+2025-07-03 21:35:05,522 - depth_experiment_mnist - INFO - Epoch 11/20
+2025-07-03 21:35:20,886 - depth_experiment_mnist - INFO - Epoch 11: Train Loss: 0.1645, Test Loss: 0.0852, Train Acc: 0.9560, Test Acc: 0.9769, Time: 15.36 sec
+2025-07-03 21:35:20,886 - depth_experiment_mnist - INFO - Epoch 11: Train Loss: 0.1645, Test Loss: 0.0852, Train Acc: 0.9560, Test Acc: 0.9769, Time: 15.36 sec
+2025-07-03 21:35:20,886 - depth_experiment_mnist - INFO - Epoch 12/20
+2025-07-03 21:35:20,886 - depth_experiment_mnist - INFO - Epoch 12/20
+2025-07-03 21:35:35,761 - depth_experiment_mnist - INFO - Epoch 12: Train Loss: 0.1600, Test Loss: 0.0843, Train Acc: 0.9578, Test Acc: 0.9776, Time: 14.87 sec
+2025-07-03 21:35:35,761 - depth_experiment_mnist - INFO - Epoch 12: Train Loss: 0.1600, Test Loss: 0.0843, Train Acc: 0.9578, Test Acc: 0.9776, Time: 14.87 sec
+2025-07-03 21:35:35,761 - depth_experiment_mnist - INFO - Epoch 13/20
+2025-07-03 21:35:35,761 - depth_experiment_mnist - INFO - Epoch 13/20
+2025-07-03 21:35:51,461 - depth_experiment_mnist - INFO - Epoch 13: Train Loss: 0.1527, Test Loss: 0.0824, Train Acc: 0.9590, Test Acc: 0.9763, Time: 15.70 sec
+2025-07-03 21:35:51,461 - depth_experiment_mnist - INFO - Epoch 13: Train Loss: 0.1527, Test Loss: 0.0824, Train Acc: 0.9590, Test Acc: 0.9763, Time: 15.70 sec
+2025-07-03 21:35:51,461 - depth_experiment_mnist - INFO - Epoch 14/20
+2025-07-03 21:35:51,461 - depth_experiment_mnist - INFO - Epoch 14/20
+2025-07-03 21:36:06,430 - depth_experiment_mnist - INFO - Epoch 14: Train Loss: 0.1516, Test Loss: 0.0775, Train Acc: 0.9605, Test Acc: 0.9788, Time: 14.97 sec
+2025-07-03 21:36:06,430 - depth_experiment_mnist - INFO - Epoch 14: Train Loss: 0.1516, Test Loss: 0.0775, Train Acc: 0.9605, Test Acc: 0.9788, Time: 14.97 sec
+2025-07-03 21:36:06,430 - depth_experiment_mnist - INFO - Epoch 15/20
+2025-07-03 21:36:06,430 - depth_experiment_mnist - INFO - Epoch 15/20
+2025-07-03 21:36:22,027 - depth_experiment_mnist - INFO - Epoch 15: Train Loss: 0.1408, Test Loss: 0.0764, Train Acc: 0.9623, Test Acc: 0.9789, Time: 15.60 sec
+2025-07-03 21:36:22,027 - depth_experiment_mnist - INFO - Epoch 15: Train Loss: 0.1408, Test Loss: 0.0764, Train Acc: 0.9623, Test Acc: 0.9789, Time: 15.60 sec
+2025-07-03 21:36:22,027 - depth_experiment_mnist - INFO - Epoch 16/20
+2025-07-03 21:36:22,027 - depth_experiment_mnist - INFO - Epoch 16/20
+2025-07-03 21:36:37,003 - depth_experiment_mnist - INFO - Epoch 16: Train Loss: 0.1376, Test Loss: 0.0705, Train Acc: 0.9640, Test Acc: 0.9799, Time: 14.98 sec
+2025-07-03 21:36:37,003 - depth_experiment_mnist - INFO - Epoch 16: Train Loss: 0.1376, Test Loss: 0.0705, Train Acc: 0.9640, Test Acc: 0.9799, Time: 14.98 sec
+2025-07-03 21:36:37,003 - depth_experiment_mnist - INFO - Epoch 17/20
+2025-07-03 21:36:37,003 - depth_experiment_mnist - INFO - Epoch 17/20
+2025-07-03 21:36:52,107 - depth_experiment_mnist - INFO - Epoch 17: Train Loss: 0.1317, Test Loss: 0.0729, Train Acc: 0.9654, Test Acc: 0.9803, Time: 15.10 sec
+2025-07-03 21:36:52,107 - depth_experiment_mnist - INFO - Epoch 17: Train Loss: 0.1317, Test Loss: 0.0729, Train Acc: 0.9654, Test Acc: 0.9803, Time: 15.10 sec
+2025-07-03 21:36:52,107 - depth_experiment_mnist - INFO - Epoch 18/20
+2025-07-03 21:36:52,107 - depth_experiment_mnist - INFO - Epoch 18/20
+2025-07-03 21:37:07,066 - depth_experiment_mnist - INFO - Epoch 18: Train Loss: 0.1299, Test Loss: 0.0744, Train Acc: 0.9650, Test Acc: 0.9799, Time: 14.96 sec
+2025-07-03 21:37:07,066 - depth_experiment_mnist - INFO - Epoch 18: Train Loss: 0.1299, Test Loss: 0.0744, Train Acc: 0.9650, Test Acc: 0.9799, Time: 14.96 sec
+2025-07-03 21:37:07,066 - depth_experiment_mnist - INFO - Epoch 19/20
+2025-07-03 21:37:07,066 - depth_experiment_mnist - INFO - Epoch 19/20
+2025-07-03 21:37:22,641 - depth_experiment_mnist - INFO - Epoch 19: Train Loss: 0.1248, Test Loss: 0.0721, Train Acc: 0.9664, Test Acc: 0.9800, Time: 15.58 sec
+2025-07-03 21:37:22,641 - depth_experiment_mnist - INFO - Epoch 19: Train Loss: 0.1248, Test Loss: 0.0721, Train Acc: 0.9664, Test Acc: 0.9800, Time: 15.58 sec
+2025-07-03 21:37:22,641 - depth_experiment_mnist - INFO - Epoch 20/20
+2025-07-03 21:37:22,641 - depth_experiment_mnist - INFO - Epoch 20/20
+2025-07-03 21:37:37,506 - depth_experiment_mnist - INFO - Epoch 20: Train Loss: 0.1235, Test Loss: 0.0672, Train Acc: 0.9667, Test Acc: 0.9817, Time: 14.86 sec
+2025-07-03 21:37:37,506 - depth_experiment_mnist - INFO - Epoch 20: Train Loss: 0.1235, Test Loss: 0.0672, Train Acc: 0.9667, Test Acc: 0.9817, Time: 14.86 sec
+2025-07-03 21:37:38,038 - depth_experiment_mnist - INFO - 
+==================================================
+2025-07-03 21:37:38,038 - depth_experiment_mnist - INFO - 
+==================================================
+2025-07-03 21:37:38,038 - depth_experiment_mnist - INFO - MNIST - Results Summary:
+2025-07-03 21:37:38,038 - depth_experiment_mnist - INFO - MNIST - Results Summary:
+2025-07-03 21:37:38,038 - depth_experiment_mnist - INFO - Depth 5: Test Acc: 0.9820, Time: 289.0 sec, Params: 402,954
+2025-07-03 21:37:38,038 - depth_experiment_mnist - INFO - Depth 5: Test Acc: 0.9820, Time: 289.0 sec, Params: 402,954
+2025-07-03 21:37:38,038 - depth_experiment_mnist - INFO - Depth 7: Test Acc: 0.9817, Time: 306.4 sec, Params: 535,562
+2025-07-03 21:37:38,038 - depth_experiment_mnist - INFO - Depth 7: Test Acc: 0.9817, Time: 306.4 sec, Params: 535,562
+2025-07-03 21:37:38,039 - depth_experiment_mnist - INFO - Results saved to results/depth_experiments/mnist_results.json
+2025-07-03 21:37:38,039 - depth_experiment_mnist - INFO - Results saved to results/depth_experiments/mnist_results.json
