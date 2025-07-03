@@ -1,0 +1,21 @@
+2025-07-03 22:17:20,233 - width_experiment_mnist - INFO - Starting width experiment for mnist
+2025-07-03 22:17:20,233 - width_experiment_mnist - INFO - Configurations: ['narrow', 'medium', 'wide', 'xwide']
+2025-07-03 22:17:20,233 - width_experiment_mnist - INFO - Test mode activated
+2025-07-03 22:17:20,327 - width_experiment_mnist - INFO - 
+=== Configuration: narrow ===
+2025-07-03 22:17:20,327 - width_experiment_mnist - INFO - Layer widths: [64, 32, 16]
+2025-07-03 22:17:20,525 - width_experiment_mnist - INFO - Model parameters: 53,018
+2025-07-03 22:17:33,870 - width_experiment_mnist - INFO - Epoch 1/2: Train Loss: 0.4284, Test Loss: 0.1991, Train Acc: 0.8760, Test Acc: 0.9395, Time: 13.34 sec
+2025-07-03 22:17:46,972 - width_experiment_mnist - INFO - Epoch 2/2: Train Loss: 0.1680, Test Loss: 0.1416, Train Acc: 0.9500, Test Acc: 0.9576, Time: 13.10 sec
+2025-07-03 22:17:47,287 - width_experiment_mnist - INFO - 
+=== Configuration: medium ===
+2025-07-03 22:17:47,287 - width_experiment_mnist - INFO - Layer widths: [256, 128, 64]
+2025-07-03 22:17:47,290 - width_experiment_mnist - INFO - Model parameters: 242,762
+2025-07-03 22:18:00,364 - width_experiment_mnist - INFO - Epoch 1/2: Train Loss: 0.2788, Test Loss: 0.1284, Train Acc: 0.9171, Test Acc: 0.9576, Time: 13.07 sec
+2025-07-03 22:18:13,610 - width_experiment_mnist - INFO - Epoch 2/2: Train Loss: 0.1034, Test Loss: 0.0986, Train Acc: 0.9686, Test Acc: 0.9695, Time: 13.25 sec
+2025-07-03 22:18:14,207 - width_experiment_mnist - INFO - 
+==================================================
+2025-07-03 22:18:14,208 - width_experiment_mnist - INFO - MNIST - Results Summary:
+2025-07-03 22:18:14,208 - width_experiment_mnist - INFO - narrow: Test Acc: 0.9576, Time: 26.4 sec, Params: 53,018
+2025-07-03 22:18:14,208 - width_experiment_mnist - INFO - medium: Test Acc: 0.9695, Time: 26.3 sec, Params: 242,762
+2025-07-03 22:18:14,208 - width_experiment_mnist - INFO - Results saved to results/width_experiments/mnist_results.json
