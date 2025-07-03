@@ -1,0 +1,60 @@
+2025-07-03 22:28:30,559 - reg_experiment_cifar - INFO - Starting regularization experiment for cifar
+2025-07-03 22:28:30,559 - reg_experiment_cifar - INFO - Test mode activated
+2025-07-03 22:28:32,234 - reg_experiment_cifar - INFO - 
+=== Experiment: no_reg ===
+2025-07-03 22:28:32,519 - reg_experiment_cifar - INFO - Model parameters: 3,805,450
+2025-07-03 22:28:47,237 - reg_experiment_cifar - INFO - Epoch 1/2: Train Loss: 1.6819, Test Loss: 1.5153, Train Acc: 0.4044, Test Acc: 0.4660, Time: 14.33 sec
+2025-07-03 22:29:02,376 - reg_experiment_cifar - INFO - Epoch 2/2: Train Loss: 1.4729, Test Loss: 1.4455, Train Acc: 0.4811, Test Acc: 0.4889, Time: 14.77 sec
+2025-07-03 22:29:02,818 - reg_experiment_cifar - INFO - 
+=== Experiment: dropout_0.1 ===
+2025-07-03 22:29:02,845 - reg_experiment_cifar - INFO - Model parameters: 3,805,450
+2025-07-03 22:29:18,375 - reg_experiment_cifar - INFO - Epoch 1/2: Train Loss: 1.7262, Test Loss: 1.5810, Train Acc: 0.3875, Test Acc: 0.4434, Time: 15.16 sec
+2025-07-03 22:29:34,479 - reg_experiment_cifar - INFO - Epoch 2/2: Train Loss: 1.5525, Test Loss: 1.4681, Train Acc: 0.4526, Test Acc: 0.4791, Time: 15.51 sec
+2025-07-03 22:29:34,857 - reg_experiment_cifar - INFO - 
+=== Experiment: dropout_0.3 ===
+2025-07-03 22:29:34,888 - reg_experiment_cifar - INFO - Model parameters: 3,805,450
+2025-07-03 22:29:49,924 - reg_experiment_cifar - INFO - Epoch 1/2: Train Loss: 1.8218, Test Loss: 1.6243, Train Acc: 0.3508, Test Acc: 0.4060, Time: 14.68 sec
+2025-07-03 22:30:06,750 - reg_experiment_cifar - INFO - Epoch 2/2: Train Loss: 1.6692, Test Loss: 1.5412, Train Acc: 0.4074, Test Acc: 0.4490, Time: 16.48 sec
+2025-07-03 22:30:07,022 - reg_experiment_cifar - INFO - 
+=== Experiment: dropout_0.5 ===
+2025-07-03 22:30:07,050 - reg_experiment_cifar - INFO - Model parameters: 3,805,450
+2025-07-03 22:30:23,039 - reg_experiment_cifar - INFO - Epoch 1/2: Train Loss: 1.9652, Test Loss: 1.7383, Train Acc: 0.3001, Test Acc: 0.3908, Time: 15.47 sec
+2025-07-03 22:30:39,257 - reg_experiment_cifar - INFO - Epoch 2/2: Train Loss: 1.8299, Test Loss: 1.6879, Train Acc: 0.3477, Test Acc: 0.4236, Time: 15.66 sec
+2025-07-03 22:30:39,545 - reg_experiment_cifar - INFO - 
+=== Experiment: batchnorm ===
+2025-07-03 22:30:39,573 - reg_experiment_cifar - INFO - Model parameters: 3,809,034
+2025-07-03 22:30:54,919 - reg_experiment_cifar - INFO - Epoch 1/2: Train Loss: 1.6190, Test Loss: 1.4818, Train Acc: 0.4200, Test Acc: 0.4754, Time: 14.85 sec
+2025-07-03 22:31:10,178 - reg_experiment_cifar - INFO - Epoch 2/2: Train Loss: 1.3857, Test Loss: 1.3678, Train Acc: 0.5037, Test Acc: 0.5109, Time: 14.77 sec
+2025-07-03 22:31:10,447 - reg_experiment_cifar - INFO - 
+=== Experiment: both ===
+2025-07-03 22:31:10,475 - reg_experiment_cifar - INFO - Model parameters: 3,809,034
+2025-07-03 22:31:26,604 - reg_experiment_cifar - INFO - Epoch 1/2: Train Loss: 1.7175, Test Loss: 1.4953, Train Acc: 0.3869, Test Acc: 0.4669, Time: 15.63 sec
+2025-07-03 22:31:41,540 - reg_experiment_cifar - INFO - Epoch 2/2: Train Loss: 1.4994, Test Loss: 1.3970, Train Acc: 0.4659, Test Acc: 0.5030, Time: 14.23 sec
+2025-07-03 22:31:41,817 - reg_experiment_cifar - INFO - 
+=== Experiment: l2_1e-4 ===
+2025-07-03 22:31:41,844 - reg_experiment_cifar - INFO - Model parameters: 3,805,450
+2025-07-03 22:31:56,261 - reg_experiment_cifar - INFO - Epoch 1/2: Train Loss: 1.6845, Test Loss: 1.5619, Train Acc: 0.4044, Test Acc: 0.4453, Time: 14.07 sec
+2025-07-03 22:32:10,711 - reg_experiment_cifar - INFO - Epoch 2/2: Train Loss: 1.4908, Test Loss: 1.4752, Train Acc: 0.4725, Test Acc: 0.4686, Time: 14.10 sec
+2025-07-03 22:32:10,992 - reg_experiment_cifar - INFO - 
+=== Experiment: l2_1e-3 ===
+2025-07-03 22:32:11,019 - reg_experiment_cifar - INFO - Model parameters: 3,805,450
+2025-07-03 22:32:27,023 - reg_experiment_cifar - INFO - Epoch 1/2: Train Loss: 1.6952, Test Loss: 1.5846, Train Acc: 0.3966, Test Acc: 0.4414, Time: 15.66 sec
+2025-07-03 22:32:41,501 - reg_experiment_cifar - INFO - Epoch 2/2: Train Loss: 1.5539, Test Loss: 1.5094, Train Acc: 0.4515, Test Acc: 0.4667, Time: 14.11 sec
+2025-07-03 22:32:41,790 - reg_experiment_cifar - INFO - 
+=== Experiment: l2_1e-2 ===
+2025-07-03 22:32:41,816 - reg_experiment_cifar - INFO - Model parameters: 3,805,450
+2025-07-03 22:32:56,200 - reg_experiment_cifar - INFO - Epoch 1/2: Train Loss: 1.7843, Test Loss: 1.7158, Train Acc: 0.3598, Test Acc: 0.3833, Time: 14.03 sec
+2025-07-03 22:33:10,861 - reg_experiment_cifar - INFO - Epoch 2/2: Train Loss: 1.6702, Test Loss: 1.6342, Train Acc: 0.4009, Test Acc: 0.4129, Time: 14.12 sec
+2025-07-03 22:33:11,290 - reg_experiment_cifar - INFO - 
+==================================================
+2025-07-03 22:33:11,290 - reg_experiment_cifar - INFO - CIFAR - Results Summary:
+2025-07-03 22:33:11,290 - reg_experiment_cifar - INFO - no_reg: Test Acc: 0.4889, Time: 29.1 sec, Params: 3,805,450
+2025-07-03 22:33:11,290 - reg_experiment_cifar - INFO - dropout_0.1: Test Acc: 0.4791, Time: 30.7 sec, Params: 3,805,450
+2025-07-03 22:33:11,290 - reg_experiment_cifar - INFO - dropout_0.3: Test Acc: 0.4490, Time: 31.2 sec, Params: 3,805,450
+2025-07-03 22:33:11,290 - reg_experiment_cifar - INFO - dropout_0.5: Test Acc: 0.4236, Time: 31.1 sec, Params: 3,805,450
+2025-07-03 22:33:11,290 - reg_experiment_cifar - INFO - batchnorm: Test Acc: 0.5109, Time: 29.6 sec, Params: 3,809,034
+2025-07-03 22:33:11,290 - reg_experiment_cifar - INFO - both: Test Acc: 0.5030, Time: 29.9 sec, Params: 3,809,034
+2025-07-03 22:33:11,290 - reg_experiment_cifar - INFO - l2_1e-4: Test Acc: 0.4686, Time: 28.2 sec, Params: 3,805,450
+2025-07-03 22:33:11,290 - reg_experiment_cifar - INFO - l2_1e-3: Test Acc: 0.4667, Time: 29.8 sec, Params: 3,805,450
+2025-07-03 22:33:11,290 - reg_experiment_cifar - INFO - l2_1e-2: Test Acc: 0.4129, Time: 28.1 sec, Params: 3,805,450
+2025-07-03 22:33:11,292 - reg_experiment_cifar - INFO - Results saved to results/regularization_experiments/cifar_results.json
