@@ -13,12 +13,12 @@
 | Residual CNN    | 99.53                  | 213.86               | 160,906  |
 
 **Графики обучения:**
-![Графики обучения FC на MNIST](Homework%204/results/mnist_comparison/FC_-_MNIST_Training.png)
-![Графики обучения SimpleCNN на MNIST](Homework%204/results/mnist_comparison/SimpleCNN_-_MNIST_Training.png)
-![Графики обучения ResCNN на MNIST](Homework%204/results/mnist_comparison/ResCNN_-_MNIST_Training.png)
+![Графики обучения FC на MNIST](results/mnist_comparison/FC_-_MNIST_Training.png)
+![Графики обучения SimpleCNN на MNIST](results/mnist_comparison/SimpleCNN_-_MNIST_Training.png)
+![Графики обучения ResCNN на MNIST](results/mnist_comparison/ResCNN_-_MNIST_Training.png)
 
 **Сравнение точности:**
-![Сравнение точности на MNIST](Homework%204/results/mnist_comparison/MNIST_Test_Accuracy_Comparison.png)
+![Сравнение точности на MNIST](results/mnist_comparison/MNIST_Test_Accuracy_Comparison.png)
 
 **Выводы:**
 1. Все модели показали отличную точность (>97%), что подтверждает относительную простоту MNIST
@@ -38,18 +38,34 @@
 | Residual CNN    | 75.67                  | 562.75               | 308,682     |
 
 **Графики обучения:**
-![Графики обучения FC на CIFAR-10](Homework%204/results/cifar_comparison/FC_CIFAR-10_Training.png)
-![Графики обучения CNN на CIFAR-10](Homework%204/results/cifar_comparison/CNN_CIFAR-10_Training.png)
-![Графики обучения ResCNN на CIFAR-10](Homework%204/results/cifar_comparison/ResCNN_CIFAR-10_Training.png)
+![Графики обучения FC на CIFAR-10](results/cifar_comparison/FC_-_CIFAR-10_Training.png)
+![Графики обучения CNN на CIFAR-10](results/cifar_comparison/CNN_-_CIFAR-10_Training.png)
+![Графики обучения ResCNN на CIFAR-10](results/cifar_comparison/ResCNN_-_CIFAR-10_Training.png)
 
 **Confusion Matrix:**
-![Confusion Matrix для Residual CNN](Homework%204/results/cifar_comparison/ResCNN_cifar_cm.png)
+![Confusion Matrix для Residual CNN](results/cifar_comparison/ResCNN_-_CIFAR-10_Confusion_Matrix.png)
 
 **Сравнение точности:**
-![Сравнение точности на CIFAR-10](Homework%204/results/cifar_comparison/cifar_accuracy_comparison.png)
+![Сравнение точности на CIFAR-10](results/cifar_comparison/CIFAR-10_Test_Accuracy_Comparison.png)
 
 **Анализ переобучения:**
-![Сравнение потерь на CIFAR-10](Homework%204/results/cifar_comparison/cifar_overfitting.png)
+![Сравнение потерь на CIFAR-10](results/cifar_comparison/CIFAR-10_Train_Loss_Comparison.png)
+- **Residual CNN (ResCNN):**  
+  - Демонстрирует плавное и стабильное снижение потерь в течение всех эпох.  
+  - Конечное значение train loss приближается к 0.25, что указывает на эффективное обучение.  
+- **CNN:**  
+  - Показывает быстрое снижение потерь на начальных эпохах, но затем темп уменьшается.  
+  - Конечное значение train loss составляет около 0.5.  
+- **FC (полносвязная сеть):**  
+  - Имеет самый высокий train loss, который снижается незначительно, оставаясь выше 1.0 даже после 17.5 эпох.  
+  - Это свидетельствует о плохой способности модели обучаться на сложных данных CIFAR-10.   
+![](results/cifar_comparison/CIFAR-10_Test_Loss_Comparison.png) 
+- **Residual CNN:**  
+  - Test loss снижается до ~0.6, демонстрируя хорошую обобщающую способность.  
+- **CNN:**  
+  - Test loss достигает ~0.8, что немного выше, чем у ResCNN, но всё равно показывает приемлемое обобщение.  
+- **FC:**  
+  - Test loss остаётся высоким (~1.4), что согласуется с низкой точностью модели.  
 
 **Выводы:**
 1. CNN демонстрируют абсолютное превосходство над полносвязными сетями для CIFAR-10
@@ -71,17 +87,17 @@
 | 1x1 + 3x3       | 73.54                  | 246.05               | 620,042     |
 
 **Рецептивные поля:**
-![Рецептивные поля для разных ядер](Homework%204/results/architecture_analysis/rf_growth_Residual.png)
-![](Homework%204/results/architecture_analysis/rf_growth_5x5.png)
-![](Homework%204/results/architecture_analysis/rf_growth_3x3.png)
+![Рецептивные поля для разных ядер](results/architecture_analysis/rf_growth_Residual.png)
+![](results/architecture_analysis/rf_growth_5x5.png)
+![](results/architecture_analysis/rf_growth_3x3.png)
 
 
 **Активации первого слоя:**
-![Активации для 3x3 ядер](Homework%204/results/architecture_analysis/3x3_activations.png)
-![Активации для 5x5 ядер](Homework%204/results/architecture_analysis/5x5_activations.png)
+![Активации для 3x3 ядер](results/architecture_analysis/3x3_activations.png)
+![Активации для 5x5 ядер](results/architecture_analysis/5x5_activations.png)
 
 **Сравнение точности:**
-![Сравнение точности для разных ядер](Homework%204/results/architecture_analysis/kernel_size_comparison.png)
+![Сравнение точности для разных ядер](results/architecture_analysis/kernel_size_comparison.png)
 
 **Выводы:**
 1. Оптимальный выбор - ядра 5x5 (баланс точности и вычислительных затрат)
@@ -101,13 +117,13 @@
 | 6 слоев (Residual)| 80.97                  | 533.56              | 665,866   |
 
 **Градиенты по слоям:**
-![Анализ градиентов](results/architecture_analysis/depth/gradient_analysis.png)
+![Анализ градиентов](results/architecture_analysis/gradient_analysis.png)
 
 **Сравнение точности:**
-![Сравнение точности для разной глубины](results/architecture_analysis/depth/depth_comparison.png)
+![Сравнение точности для разной глубины](results/architecture_analysis/depth_comparison.png)
 
 **Анализ градиентов:**
-![Сравнение градиентов](results/architecture_analysis/depth/gradient_comparison.png)
+![Сравнение градиентов](results/architecture_analysis/gradient_comparison.png)
 
 **Выводы:**
 1. Residual-связи обеспечивают стабильный прирост точности (~3%) для глубоких сетей
