@@ -1,0 +1,69 @@
+2025-07-06 14:03:08,478 - __main__ - INFO - Using device: cuda
+2025-07-06 14:03:08,478 - __main__ - INFO - 
+==================================================
+2025-07-06 14:03:08,478 - __main__ - INFO - Starting MNIST comparison
+2025-07-06 14:03:08,478 - __main__ - INFO - ==================================================
+2025-07-06 14:03:12,356 - __main__ - INFO - 
+Training FC model...
+2025-07-06 14:03:12,356 - __main__ - INFO - Number of parameters: 535,818
+2025-07-06 14:11:32,490 - __main__ - INFO - Using device: cuda
+2025-07-06 14:11:32,490 - __main__ - INFO - 
+==================================================
+2025-07-06 14:11:32,490 - __main__ - INFO - Starting MNIST comparison
+2025-07-06 14:11:32,490 - __main__ - INFO - ==================================================
+2025-07-06 14:11:32,730 - __main__ - INFO - 
+Training FC model...
+2025-07-06 14:11:32,730 - __main__ - INFO - Number of parameters: 535,818
+2025-07-06 14:14:47,735 - __main__ - INFO - Using device: cuda
+2025-07-06 14:14:47,735 - __main__ - INFO - 
+==================================================
+2025-07-06 14:14:47,735 - __main__ - INFO - Starting MNIST comparison
+2025-07-06 14:14:47,735 - __main__ - INFO - ==================================================
+2025-07-06 14:14:47,924 - __main__ - INFO - 
+Training FC model...
+2025-07-06 14:14:47,924 - __main__ - INFO - Number of parameters: 535,818
+2025-07-06 14:21:02,514 - __main__ - INFO - Using device: cuda
+2025-07-06 14:21:02,514 - __main__ - INFO - 
+==================================================
+2025-07-06 14:21:02,515 - __main__ - INFO - Starting MNIST comparison
+2025-07-06 14:21:02,515 - __main__ - INFO - ==================================================
+2025-07-06 14:21:02,706 - __main__ - INFO - 
+Training FC model...
+2025-07-06 14:21:02,706 - __main__ - INFO - Number of parameters: 535,818
+2025-07-06 14:25:34,312 - __main__ - INFO - Using device: cuda
+2025-07-06 14:25:34,312 - __main__ - INFO - 
+==================================================
+2025-07-06 14:25:34,312 - __main__ - INFO - Starting MNIST comparison
+2025-07-06 14:25:34,313 - __main__ - INFO - ==================================================
+2025-07-06 14:25:34,508 - __main__ - INFO - 
+Training FC model...
+2025-07-06 14:25:34,509 - __main__ - INFO - Number of parameters: 535,818
+2025-07-06 14:28:02,599 - __main__ - INFO - 
+Training SimpleCNN model...
+2025-07-06 14:28:02,599 - __main__ - INFO - Number of parameters: 421,642
+2025-07-06 14:30:51,436 - __main__ - INFO - 
+Training ResCNN model...
+2025-07-06 14:30:51,436 - __main__ - INFO - Number of parameters: 160,906
+2025-07-06 14:34:27,290 - __main__ - INFO - 
+MNIST Results Comparison:
+2025-07-06 14:34:27,290 - __main__ - INFO - FC: Test Acc = 0.9765, Train Time = 146.05s, Inference Time = 1.82s, Params = 535,818
+2025-07-06 14:34:27,290 - __main__ - INFO - SimpleCNN: Test Acc = 0.9926, Train Time = 166.81s, Inference Time = 1.89s, Params = 421,642
+2025-07-06 14:34:27,290 - __main__ - INFO - ResCNN: Test Acc = 0.9953, Train Time = 213.26s, Inference Time = 2.28s, Params = 160,906
+2025-07-06 14:34:27,430 - __main__ - INFO - 
+==================================================
+2025-07-06 14:34:27,430 - __main__ - INFO - Starting CIFAR-10 comparison
+2025-07-06 14:34:27,430 - __main__ - INFO - ==================================================
+2025-07-06 14:34:35,421 - __main__ - INFO - 
+Training FC model...
+2025-07-06 14:34:35,422 - __main__ - INFO - Number of parameters: 3,805,450
+2025-07-06 14:39:28,778 - __main__ - INFO - 
+Training CNN model...
+2025-07-06 14:39:28,778 - __main__ - INFO - Number of parameters: 620,362
+2025-07-06 14:44:56,058 - __main__ - INFO - 
+Training ResCNN model...
+2025-07-06 14:44:56,058 - __main__ - INFO - Number of parameters: 308,682
+2025-07-06 14:52:44,368 - __main__ - INFO - 
+CIFAR-10 Results Comparison:
+2025-07-06 14:52:44,368 - __main__ - INFO - FC: Test Acc = 0.4849, Train Time = 288.00s, Inference Time = 2.12s, Params = 3,805,450
+2025-07-06 14:52:44,369 - __main__ - INFO - CNN: Test Acc = 0.7615, Train Time = 322.53s, Inference Time = 2.17s, Params = 620,362
+2025-07-06 14:52:44,369 - __main__ - INFO - ResCNN: Test Acc = 0.7567, Train Time = 462.75s, Inference Time = 2.61s, Params = 308,682
