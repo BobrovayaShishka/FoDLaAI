@@ -1,0 +1,56 @@
+2025-07-06 15:01:20,337 - __main__ - INFO - Using device: cuda
+2025-07-06 15:01:20,338 - __main__ - INFO - 
+==================================================
+2025-07-06 15:01:20,338 - __main__ - INFO - Starting Kernel Size Experiment
+2025-07-06 15:01:20,338 - __main__ - INFO - ==================================================
+2025-07-06 15:01:22,170 - __main__ - INFO - 3x3 model created. Parameters: 620,810
+2025-07-06 15:01:22,183 - __main__ - INFO - 5x5 model created. Parameters: 786,186
+2025-07-06 15:01:22,198 - __main__ - INFO - 7x7 model created. Parameters: 1,034,250
+2025-07-06 15:01:22,208 - __main__ - INFO - 1x1+3x3 model created. Parameters: 620,042
+2025-07-06 15:01:22,760 - __main__ - INFO - 
+Training 3x3 model...
+2025-07-06 15:03:05,499 - __main__ - INFO - Using device: cuda
+2025-07-06 15:03:05,499 - __main__ - INFO - 
+==================================================
+2025-07-06 15:03:05,499 - __main__ - INFO - Starting Kernel Size Experiment
+2025-07-06 15:03:05,499 - __main__ - INFO - ==================================================
+2025-07-06 15:03:07,325 - __main__ - INFO - 3x3 model created. Parameters: 620,810
+2025-07-06 15:03:07,333 - __main__ - INFO - 5x5 model created. Parameters: 786,186
+2025-07-06 15:03:07,344 - __main__ - INFO - 7x7 model created. Parameters: 1,034,250
+2025-07-06 15:03:07,349 - __main__ - INFO - 1x1+3x3 model created. Parameters: 620,042
+2025-07-06 15:03:07,747 - __main__ - INFO - 
+Training 3x3 model...
+2025-07-06 15:07:11,113 - __main__ - INFO - 
+Training 5x5 model...
+2025-07-06 15:11:45,538 - __main__ - INFO - 
+Training 7x7 model...
+2025-07-06 15:17:18,455 - __main__ - INFO - 
+Training 1x1+3x3 model...
+2025-07-06 15:21:25,272 - __main__ - INFO - 
+Kernel Size Results:
+2025-07-06 15:21:25,272 - __main__ - INFO - 3x3: Test Acc = 0.7871, Train Time = 242.44s, Params = 620,810
+2025-07-06 15:21:25,272 - __main__ - INFO - 5x5: Test Acc = 0.7946, Train Time = 273.64s, Params = 786,186
+2025-07-06 15:21:25,272 - __main__ - INFO - 7x7: Test Acc = 0.7786, Train Time = 331.96s, Params = 1,034,250
+2025-07-06 15:21:25,273 - __main__ - INFO - 1x1+3x3: Test Acc = 0.7354, Train Time = 246.05s, Params = 620,042
+2025-07-06 15:21:25,409 - __main__ - INFO - 
+==================================================
+2025-07-06 15:21:25,410 - __main__ - INFO - Starting Network Depth Experiment
+2025-07-06 15:21:25,410 - __main__ - INFO - ==================================================
+2025-07-06 15:21:27,053 - __main__ - INFO - Shallow (2 blocks) model created. Parameters: 94,986
+2025-07-06 15:21:27,059 - __main__ - INFO - Medium (4 blocks) model created. Parameters: 210,618
+2025-07-06 15:21:27,067 - __main__ - INFO - Deep (6 blocks) model created. Parameters: 280,074
+2025-07-06 15:21:27,087 - __main__ - INFO - Residual (6 blocks) model created. Parameters: 665,866
+2025-07-06 15:21:27,087 - __main__ - INFO - 
+Training Shallow (2 blocks) model...
+2025-07-06 15:28:37,223 - __main__ - INFO - 
+Training Medium (4 blocks) model...
+2025-07-06 15:36:02,152 - __main__ - INFO - 
+Training Deep (6 blocks) model...
+2025-07-06 15:42:55,572 - __main__ - INFO - 
+Training Residual (6 blocks) model...
+2025-07-06 15:51:53,999 - __main__ - INFO - 
+Depth Experiment Results:
+2025-07-06 15:51:53,999 - __main__ - INFO - Shallow (2 blocks): Test Acc = 0.6797, Train Time = 425.35s, Params = 94,986
+2025-07-06 15:51:53,999 - __main__ - INFO - Medium (4 blocks): Test Acc = 0.7490, Train Time = 440.95s, Params = 210,618
+2025-07-06 15:51:53,999 - __main__ - INFO - Deep (6 blocks): Test Acc = 0.7814, Train Time = 409.44s, Params = 280,074
+2025-07-06 15:51:53,999 - __main__ - INFO - Residual (6 blocks): Test Acc = 0.8097, Train Time = 533.56s, Params = 665,866
