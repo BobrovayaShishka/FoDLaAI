@@ -1,0 +1,4 @@
+Size: 64x64 | Load: 1.29s | Aug: 0.01s | Memory: 7.51MB
+Size: 128x128 | Load: 1.35s | Aug: 0.01s | Memory: 18.75MB
+Size: 224x224 | Load: 1.10s | Aug: 0.01s | Memory: 57.42MB
+Size: 512x512 | Load: 1.36s | Aug: 0.04s | Memory: 578.95MB
