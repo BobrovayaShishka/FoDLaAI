@@ -1,0 +1,3 @@
+resnet18: Best Val Acc = 0.8611, Training Time = 30.97s
+efficientnet_b0: Best Val Acc = 0.9167, Training Time = 31.77s
+mobilenet_v3_small: Best Val Acc = 0.6667, Training Time = 27.84s
