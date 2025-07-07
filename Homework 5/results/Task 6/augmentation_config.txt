@@ -1,0 +1,7 @@
+Используемые аугментации для обучения:
+- RandomResizedCrop
+- RandomHorizontalFlip
+- RandomRotation
+- ColorJitter
+
+Конфигурация: AugmentationPipeline(RandomResizedCrop, RandomHorizontalFlip, RandomRotation, ColorJitter)
