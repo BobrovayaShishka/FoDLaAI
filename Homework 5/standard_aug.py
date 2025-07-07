@@ -11,7 +11,7 @@ from PIL import Image, ImageEnhance, ImageFilter
 import matplotlib.pyplot as plt
 
 # Импортируем пользовательские классы и функции
-from my_datasets import CustomImageDataset
+from datasets import CustomImageDataset
 from extra_augs import AddGaussianNoise, CutOut, Solarize
 
 
